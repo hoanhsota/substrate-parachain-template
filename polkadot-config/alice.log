@@ -1,0 +1,1154 @@
+2021-10-27 15:59:48 Parity Polkadot    
+2021-10-27 15:59:48 ✌️  version 0.9.10-aeea9b7bd-x86_64-macos    
+2021-10-27 15:59:48 ❤️  by Parity Technologies <admin@parity.io>, 2017-2021    
+2021-10-27 15:59:48 📋 Chain specification: Rococo Local Testnet    
+2021-10-27 15:59:48 🏷 Node name: Alice    
+2021-10-27 15:59:48 👤 Role: AUTHORITY    
+2021-10-27 15:59:48 💾 Database: RocksDb at /var/folders/fj/9tsh1_417gv5n58m8061sm3c0000gn/T/substrateIPyPbd/chains/rococo_local_testnet/db    
+2021-10-27 15:59:48 ⛓  Native runtime: rococo-9100 (parity-rococo-v1.6-0.tx0.au0)    
+2021-10-27 15:59:52 🔨 Initializing Genesis block/state (state: 0x0c15…6b89, header-hash: 0x94ef…3410)    
+2021-10-27 15:59:52 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.    
+2021-10-27 15:59:52 ⏱  Loaded block-time = 6s from block 0x94ef77eb5fffb07b07e9187344012aa39f4133c29e9993828b0273c300613410    
+2021-10-27 15:59:52 👶 Creating empty BABE epoch changes on what appears to be first startup.    
+2021-10-27 15:59:52 🏷 Local node identity is: 12D3KooWLA3viZtF3cvoi7jQxrSUTUa6LohRs9Wx1jXCqiNfZjYa    
+2021-10-27 15:59:54 📦 Highest known block at #0    
+2021-10-27 15:59:54 Listening for new connections on 127.0.0.1:9944.    
+2021-10-27 15:59:54 🖇️ Connecting all Handles to Overseer
+2021-10-27 15:59:54 👶 Starting BABE Authorship worker    
+2021-10-27 15:59:54 〽️ Prometheus exporter started at 127.0.0.1:9615    
+2021-10-27 15:59:54 Accepted a new tcp connection from 127.0.0.1:53122.    
+2021-10-27 15:59:55 🔍 Discovered new external address for our node: /ip4/172.16.10.128/tcp/30444/p2p/12D3KooWLA3viZtF3cvoi7jQxrSUTUa6LohRs9Wx1jXCqiNfZjYa    
+2021-10-27 15:59:58 Accepted a new tcp connection from 127.0.0.1:53168.    
+2021-10-27 15:59:59 💤 Idle (2 peers), best: #0 (0x94ef…3410), finalized #0 (0x94ef…3410), ⬇ 3.2kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:00:00 👶 New epoch 0 launching at block 0xfe5d…f97d (block slot 272554200 >= start slot 272554200).    
+2021-10-27 16:00:00 👶 Next epoch starts at slot 272554210    
+2021-10-27 16:00:00 ✨ Imported #1 (0xfe5d…f97d)    
+2021-10-27 16:00:00 Accepted a new tcp connection from 127.0.0.1:53172.    
+2021-10-27 16:00:04 💤 Idle (3 peers), best: #1 (0xfe5d…f97d), finalized #0 (0x94ef…3410), ⬇ 3.5kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:00:06 ✨ Imported #2 (0xdcb6…c043)    
+2021-10-27 16:00:09 💤 Idle (3 peers), best: #2 (0xdcb6…c043), finalized #0 (0x94ef…3410), ⬇ 2.6kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:00:12 🙌 Starting consensus session on top of parent 0xdcb62a9d5237c8f0cc2634a6314af3e6303b47db7d2b58c415f5adbc31a1c043    
+2021-10-27 16:00:12 🎁 Prepared block for proposing at 3 [hash: 0x90bffac1eb97a2281b0ead355a2785d982f9f47b086a1dc310443560aab20e4e; parent_hash: 0xdcb6…c043; extrinsics (2): [0x3cbc…5d96, 0x3ecc…a255]]    
+2021-10-27 16:00:12 🔖 Pre-sealed block for proposal at 3. Hash now 0xdb3f13aded3e0f48b1e00d219d45c4be183091c1514a0d54e339fb2e22c9edd4, previously 0x90bffac1eb97a2281b0ead355a2785d982f9f47b086a1dc310443560aab20e4e.    
+2021-10-27 16:00:12 ✨ Imported #3 (0xdb3f…edd4)    
+2021-10-27 16:00:12 ♻️  Reorg on #3,0xdb3f…edd4 to #3,0x0a43…c661, common ancestor #2,0xdcb6…c043    
+2021-10-27 16:00:12 ✨ Imported #3 (0x0a43…c661)    
+2021-10-27 16:00:12 [index: 0] Reporting im-online at block: 3 (session: 0): Call::heartbeat(Heartbeat { block_number: 3, network_state: OpaqueNetworkState { peer_id: OpaquePeerId([152, 0, 36, 8, 1, 18, 32, 153, 159, 219, 252, 203, 48, 97, 246, 135, 231, 133, 106, 8, 211, 164, 212, 62, 118, 243, 164, 226, 18, 85, 10, 239, 175, 98, 224, 238, 133, 81, 207]), external_addresses: [OpaqueMultiaddr([112, 47, 105, 112, 52, 47, 49, 55, 50, 46, 49, 54, 46, 49, 48, 46, 49, 50, 56, 47, 116, 99, 112, 47, 51, 48, 52, 52, 52])] }, session_index: 0, authority_index: 0, validators_len: 3 }, Signature(6a794573fdc6dc72d3a3b4a13ababc5a687d55d7e905e71b09acda822293741822b7e1199caf1c1043621a3c30812d01fd9213188d41d1becf30669fa075ff89))    
+2021-10-27 16:00:14 💤 Idle (4 peers), best: #3 (0x0a43…c661), finalized #0 (0x94ef…3410), ⬇ 3.0kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:00:18 ✨ Imported #4 (0x7027…f885)    
+2021-10-27 16:00:19 💤 Idle (4 peers), best: #4 (0x7027…f885), finalized #1 (0xfe5d…f97d), ⬇ 2.4kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:00:24 ✨ Imported #5 (0x44e1…c9ab)    
+2021-10-27 16:00:24 💤 Idle (4 peers), best: #5 (0x44e1…c9ab), finalized #2 (0xdcb6…c043), ⬇ 2.5kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:00:29 💤 Idle (4 peers), best: #5 (0x44e1…c9ab), finalized #3 (0x0a43…c661), ⬇ 2.6kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:00:30 🙌 Starting consensus session on top of parent 0x44e1b2c7fe3488b5f6da4fa0c6ebdb35fbe4e049478863ddf895b63207bcc9ab    
+2021-10-27 16:00:30 🎁 Prepared block for proposing at 6 [hash: 0x0619430b12d8d06841fc099fad5f8a7f89156a1357f957b223300a1b0fb94414; parent_hash: 0x44e1…c9ab; extrinsics (2): [0x1928…2b37, 0x3e33…e463]]    
+2021-10-27 16:00:30 🔖 Pre-sealed block for proposal at 6. Hash now 0xc86b86876a53c7b80265677c49cbaf36a71d02d64e1e0372ce6cfd8fcee0f78b, previously 0x0619430b12d8d06841fc099fad5f8a7f89156a1357f957b223300a1b0fb94414.    
+2021-10-27 16:00:30 ✨ Imported #6 (0xc86b…f78b)    
+2021-10-27 16:00:30 ✨ Imported #6 (0xe485…e412)    
+2021-10-27 16:00:30 ✨ Imported #6 (0xade1…bd8c)    
+2021-10-27 16:00:34 💤 Idle (4 peers), best: #6 (0xc86b…f78b), finalized #3 (0x0a43…c661), ⬇ 2.3kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:00:36 🙌 Starting consensus session on top of parent 0xc86b86876a53c7b80265677c49cbaf36a71d02d64e1e0372ce6cfd8fcee0f78b    
+2021-10-27 16:00:36 🎁 Prepared block for proposing at 7 [hash: 0xddc397935df28e9d21f27a7565030c88085df1ab879f1906c87df6d246005477; parent_hash: 0xc86b…f78b; extrinsics (2): [0xb5df…70a9, 0xf6ee…8d85]]    
+2021-10-27 16:00:36 🔖 Pre-sealed block for proposal at 7. Hash now 0xc8dfe05f3cb25bf26997d37388a5d2261e6854a9fc52a1de49d6bad84ae14fbc, previously 0xddc397935df28e9d21f27a7565030c88085df1ab879f1906c87df6d246005477.    
+2021-10-27 16:00:36 ✨ Imported #7 (0xc8df…4fbc)    
+2021-10-27 16:00:39 💤 Idle (4 peers), best: #7 (0xc8df…4fbc), finalized #5 (0x44e1…c9ab), ⬇ 2.0kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:00:42 ✨ Imported #8 (0x43b8…4789)    
+2021-10-27 16:00:44 💤 Idle (4 peers), best: #8 (0x43b8…4789), finalized #5 (0x44e1…c9ab), ⬇ 2.1kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:00:48 ✨ Imported #9 (0x74e3…78be)    
+2021-10-27 16:00:49 💤 Idle (4 peers), best: #9 (0x74e3…78be), finalized #6 (0xc86b…f78b), ⬇ 2.3kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:00:54 ✨ Imported #10 (0x2386…307c)    
+2021-10-27 16:00:54 💤 Idle (4 peers), best: #10 (0x2386…307c), finalized #7 (0xc8df…4fbc), ⬇ 1.9kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:00:59 💤 Idle (4 peers), best: #10 (0x2386…307c), finalized #8 (0x43b8…4789), ⬇ 2.5kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:01:00 🙌 Starting consensus session on top of parent 0x238640653fab86731ea39f487cde458a5167fc9c11fb11b6c0f4e0ead1a7307c    
+2021-10-27 16:01:00 🎁 Prepared block for proposing at 11 [hash: 0x7c5e49bcbc6af1ecd291454a22c408a398691e9fcc1495a83da77fad790934ca; parent_hash: 0x2386…307c; extrinsics (2): [0xbb72…07b0, 0x2f88…7434]]    
+2021-10-27 16:01:00 🔖 Pre-sealed block for proposal at 11. Hash now 0xbc6b59f917d85fba268c901b7aa9c7fa12650159296f7b52538c9544890b0137, previously 0x7c5e49bcbc6af1ecd291454a22c408a398691e9fcc1495a83da77fad790934ca.    
+2021-10-27 16:01:00 👶 New epoch 1 launching at block 0xbc6b…0137 (block slot 272554210 >= start slot 272554210).    
+2021-10-27 16:01:00 👶 Next epoch starts at slot 272554220    
+2021-10-27 16:01:00 ✨ Imported #11 (0xbc6b…0137)    
+2021-10-27 16:01:00 👶 New epoch 1 launching at block 0x66fd…2cca (block slot 272554210 >= start slot 272554210).    
+2021-10-27 16:01:00 👶 Next epoch starts at slot 272554220    
+2021-10-27 16:01:00 ✨ Imported #11 (0x66fd…2cca)    
+2021-10-27 16:01:03 🥩 Round #9 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xacde5cad7a2648e3a568d53fbed8c22ef5adab3b2569c2b78057bcaa1f8d8ce0, block_number: 9, validator_set_id: 0 }, signatures: [Some(Signature(3ec039588eda9bb66a756cc963bf4df10b627b966a32e0c701917ab7d76ca56045a9e7a241274629079377f5a87173e61b04dbb811ec00ed77d11ac98ed3042c00)), Some(Signature(c17abffedf23301949e517ee714c9a1aee0d8043c011c012523aa6a9cb9371293bc32be1d9b2fa734ac28c2e0fd6043219925313a0649ecf369cbd427cdbe6e200)), Some(Signature(0027c71199ac386787b22d4edf4fa98c7f6d875e5177c6b062b9a5bf59b9a4de61fab54d9b1ac135f6c825da5c1774b1fb23721e8042d059e724b2d65242ce6401))] }.    
+2021-10-27 16:01:04 💤 Idle (4 peers), best: #11 (0xbc6b…0137), finalized #9 (0x74e3…78be), ⬇ 2.6kiB/s ⬆ 3.4kiB/s    
+2021-10-27 16:01:06 🙌 Starting consensus session on top of parent 0xbc6b59f917d85fba268c901b7aa9c7fa12650159296f7b52538c9544890b0137    
+2021-10-27 16:01:06 🎁 Prepared block for proposing at 12 [hash: 0x319bc01e146385a8d84778efe1af18f8507aa57d35fd2dbcda98f4dc6c63f78b; parent_hash: 0xbc6b…0137; extrinsics (3): [0x2870…34b6, 0xd4de…244c, 0x50a9…5503]]    
+2021-10-27 16:01:06 🔖 Pre-sealed block for proposal at 12. Hash now 0xed3df34f802d808c6b88dec7996cc6412571433f77ecfff46e1f579721b6221c, previously 0x319bc01e146385a8d84778efe1af18f8507aa57d35fd2dbcda98f4dc6c63f78b.    
+2021-10-27 16:01:06 ✨ Imported #12 (0xed3d…221c)    
+2021-10-27 16:01:06 Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 0, new_window_start: 0, new_window_end: 1 }
+2021-10-27 16:01:09 💤 Idle (4 peers), best: #12 (0xed3d…221c), finalized #9 (0x74e3…78be), ⬇ 1.6kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:01:12 ✨ Imported #13 (0x1405…744d)    
+2021-10-27 16:01:14 💤 Idle (4 peers), best: #13 (0x1405…744d), finalized #10 (0x2386…307c), ⬇ 3.6kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:01:18 ✨ Imported #14 (0x06fc…a3a1)    
+2021-10-27 16:01:18 ✨ Imported #14 (0x4afd…e28d)    
+2021-10-27 16:01:19 💤 Idle (4 peers), best: #14 (0x06fc…a3a1), finalized #11 (0xbc6b…0137), ⬇ 6.3kiB/s ⬆ 3.2kiB/s    
+2021-10-27 16:01:24 🙌 Starting consensus session on top of parent 0x06fc3b332890d6eb61a9b3095001b68008f14b46e64f7cd94aae7b606406a3a1    
+2021-10-27 16:01:24 🎁 Prepared block for proposing at 15 [hash: 0x8f9ed3856221eb493c5cad3c541bf069fcf1a3f487a8ddf01df0320417e6fac0; parent_hash: 0x06fc…a3a1; extrinsics (2): [0xd5e1…ddd6, 0x0aba…d52a]]    
+2021-10-27 16:01:24 🔖 Pre-sealed block for proposal at 15. Hash now 0x6d6d92b41381c52f192802d2d0144b65641ff6cc05fc1e2646557fc9d4feaa6f, previously 0x8f9ed3856221eb493c5cad3c541bf069fcf1a3f487a8ddf01df0320417e6fac0.    
+2021-10-27 16:01:24 ✨ Imported #15 (0x6d6d…aa6f)    
+2021-10-27 16:01:24 💤 Idle (4 peers), best: #15 (0x6d6d…aa6f), finalized #12 (0xed3d…221c), ⬇ 2.6kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:01:29 💤 Idle (4 peers), best: #15 (0x6d6d…aa6f), finalized #13 (0x1405…744d), ⬇ 1.9kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:01:30 ✨ Imported #16 (0x9af4…fab5)    
+2021-10-27 16:01:34 Accepted a new tcp connection from 127.0.0.1:53574.    
+2021-10-27 16:01:34 💤 Idle (4 peers), best: #16 (0x9af4…fab5), finalized #13 (0x1405…744d), ⬇ 2.5kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:01:36 🙌 Starting consensus session on top of parent 0x9af4180070a2783da9f5bd244ebd0cc215182947363f6fe5c55c783e4a0afab5    
+2021-10-27 16:01:36 🎁 Prepared block for proposing at 17 [hash: 0x43264eb1133a1e37771965ba940f6604cd3ac165a25f5f46ee3cdea936b7f4f7; parent_hash: 0x9af4…fab5; extrinsics (2): [0x0ab0…cdf0, 0xe1a0…c6d2]]    
+2021-10-27 16:01:36 🔖 Pre-sealed block for proposal at 17. Hash now 0x455c43a7273e1844b6c815bfdf2dd57be56779d19e1d7796b6c3b54901b56569, previously 0x43264eb1133a1e37771965ba940f6604cd3ac165a25f5f46ee3cdea936b7f4f7.    
+2021-10-27 16:01:36 ✨ Imported #17 (0x455c…6569)    
+2021-10-27 16:01:39 💤 Idle (4 peers), best: #17 (0x455c…6569), finalized #15 (0x6d6d…aa6f), ⬇ 5.1kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:01:42 ✨ Imported #18 (0xf573…c3e4)    
+2021-10-27 16:01:44 💤 Idle (4 peers), best: #18 (0xf573…c3e4), finalized #15 (0x6d6d…aa6f), ⬇ 3.0kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:01:48 🙌 Starting consensus session on top of parent 0xf57380cb31b424c8a44dacd2600bfb610d099d4e151a2f11d741b0d6fba3c3e4    
+2021-10-27 16:01:48 🎁 Prepared block for proposing at 19 [hash: 0xf901c605ffb9eddc92c4003d38ca70160bda59a9f49b01df06513b6e52b2a41d; parent_hash: 0xf573…c3e4; extrinsics (2): [0x8676…bf29, 0xe897…5e1c]]    
+2021-10-27 16:01:48 🔖 Pre-sealed block for proposal at 19. Hash now 0x8660c0551abb94e54b248b5c0ef2e764f2d15923f351a23871cd27de691bb702, previously 0xf901c605ffb9eddc92c4003d38ca70160bda59a9f49b01df06513b6e52b2a41d.    
+2021-10-27 16:01:48 ✨ Imported #19 (0x8660…b702)    
+2021-10-27 16:01:49 💤 Idle (4 peers), best: #19 (0x8660…b702), finalized #16 (0x9af4…fab5), ⬇ 3.0kiB/s ⬆ 4.3kiB/s    
+2021-10-27 16:01:51 🥩 Round #17 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xf49fd1e6c72e18eeabd71376472bf871f5d04dbe01440bacf8aa2dac74213c84, block_number: 17, validator_set_id: 0 }, signatures: [Some(Signature(14d0d50e2948ea0f48c78709e2412b8a88ca52091183be59e490597cba4909370c6e1c6f7b31c8dd40126a333686cc22a543c5844c9551e3d6ea202c7ab881e600)), Some(Signature(ef89dff727efe8362a2c378246ed588139e0c828e66d235b440f800afacf9fe256f977682a1bdfcbda05a914e05d3e72954db8b5096fed365e4bff1172a30faa01)), Some(Signature(06820b4b34c76d25c0cee6be6df9b10bbcacda8a54162c66ee52e0790ec166c60b6719ab5898fcde8aa8fbe0be2e8291759c25606233f956e1262326620dcbb100))] }.    
+2021-10-27 16:01:54 🙌 Starting consensus session on top of parent 0x8660c0551abb94e54b248b5c0ef2e764f2d15923f351a23871cd27de691bb702    
+2021-10-27 16:01:54 🎁 Prepared block for proposing at 20 [hash: 0x94c43db28adafd1dded885bfd940ccf9dd0b5b0c8e24fc6ded2b3b308ca41ef5; parent_hash: 0x8660…b702; extrinsics (2): [0xbaa7…5caa, 0xba92…2f7d]]    
+2021-10-27 16:01:54 🔖 Pre-sealed block for proposal at 20. Hash now 0xa392a7325c70bc35bdc88a00bbb7e59dad2f27bec49bc7f6479697d9ed3e91f0, previously 0x94c43db28adafd1dded885bfd940ccf9dd0b5b0c8e24fc6ded2b3b308ca41ef5.    
+2021-10-27 16:01:54 ✨ Imported #20 (0xa392…91f0)    
+2021-10-27 16:01:54 💤 Idle (4 peers), best: #20 (0xa392…91f0), finalized #17 (0x455c…6569), ⬇ 1.8kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:01:59 💤 Idle (4 peers), best: #20 (0xa392…91f0), finalized #17 (0x455c…6569), ⬇ 1.8kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:02:00 🙌 Starting consensus session on top of parent 0xa392a7325c70bc35bdc88a00bbb7e59dad2f27bec49bc7f6479697d9ed3e91f0    
+2021-10-27 16:02:00 🎁 Prepared block for proposing at 21 [hash: 0x5d93a11ea5515cd16155e022610b154b16eeaa1b3e85f3a94aa46bac6995bc85; parent_hash: 0xa392…91f0; extrinsics (2): [0x857a…fc90, 0xb8a0…784a]]    
+2021-10-27 16:02:00 🔖 Pre-sealed block for proposal at 21. Hash now 0xec177eadd4c93769ae29bb9448e29176d97ea3778ec9cd632356c9ead37ec609, previously 0x5d93a11ea5515cd16155e022610b154b16eeaa1b3e85f3a94aa46bac6995bc85.    
+2021-10-27 16:02:00 👶 New epoch 2 launching at block 0xec17…c609 (block slot 272554220 >= start slot 272554220).    
+2021-10-27 16:02:00 👶 Next epoch starts at slot 272554230    
+2021-10-27 16:02:00 ✨ Imported #21 (0xec17…c609)    
+2021-10-27 16:02:04 💤 Idle (4 peers), best: #21 (0xec17…c609), finalized #17 (0x455c…6569), ⬇ 6.1kiB/s ⬆ 3.9kiB/s    
+2021-10-27 16:02:06 ✨ Imported #22 (0x5f84…9433)    
+2021-10-27 16:02:06 Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 1, new_window_start: 0, new_window_end: 2 }
+2021-10-27 16:02:09 💤 Idle (4 peers), best: #22 (0x5f84…9433), finalized #19 (0x8660…b702), ⬇ 3.9kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:02:12 ✨ Imported #23 (0x35dd…befc)    
+2021-10-27 16:02:14 💤 Idle (4 peers), best: #23 (0x35dd…befc), finalized #20 (0xa392…91f0), ⬇ 3.2kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:02:15 👴 Applying authority set change scheduled at block #21    
+2021-10-27 16:02:15 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:02:18 🙌 Starting consensus session on top of parent 0x35dd50df09cbfedc15e8b5ec203682bbe73720cab171b4cdc745860bd08abefc    
+2021-10-27 16:02:18 🎁 Prepared block for proposing at 24 [hash: 0x9ca23d9b2352e93fcc15b3110bb70a210ae70c975657d4a9423eed9c9a090278; parent_hash: 0x35dd…befc; extrinsics (2): [0x3b58…9ec6, 0x296b…39ff]]    
+2021-10-27 16:02:18 🔖 Pre-sealed block for proposal at 24. Hash now 0xf71cf6c7a7fcaa2f848a87d287adbd0234be9a327d5ff0892120b0a33239dc34, previously 0x9ca23d9b2352e93fcc15b3110bb70a210ae70c975657d4a9423eed9c9a090278.    
+2021-10-27 16:02:18 ✨ Imported #24 (0xf71c…dc34)    
+2021-10-27 16:02:19 💤 Idle (4 peers), best: #24 (0xf71c…dc34), finalized #21 (0xec17…c609), ⬇ 1.2kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:02:24 ✨ Imported #25 (0x741c…b373)    
+2021-10-27 16:02:24 💤 Idle (4 peers), best: #25 (0x741c…b373), finalized #21 (0xec17…c609), ⬇ 4.4kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:02:29 💤 Idle (4 peers), best: #25 (0x741c…b373), finalized #21 (0xec17…c609), ⬇ 3.4kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:02:30 ✨ Imported #26 (0x4bcd…b2f1)    
+2021-10-27 16:02:34 💤 Idle (4 peers), best: #26 (0x4bcd…b2f1), finalized #23 (0x35dd…befc), ⬇ 3.7kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:02:36 🙌 Starting consensus session on top of parent 0x4bcd2d97695a0eabde20f0d302569dac726d7d95454096cea5c0d73bb200b2f1    
+2021-10-27 16:02:36 🎁 Prepared block for proposing at 27 [hash: 0xe0ec08a5a6db1d471ec575bf9928daa2027fb1c4c3a73e4baf5fbdc6abc875c1; parent_hash: 0x4bcd…b2f1; extrinsics (2): [0xdf7b…1bb0, 0x2dba…99e0]]    
+2021-10-27 16:02:36 🔖 Pre-sealed block for proposal at 27. Hash now 0xaedc1ffa417406057bacb3eceabda212414e33f25866f4e64009535aba0529fd, previously 0xe0ec08a5a6db1d471ec575bf9928daa2027fb1c4c3a73e4baf5fbdc6abc875c1.    
+2021-10-27 16:02:36 ✨ Imported #27 (0xaedc…29fd)    
+2021-10-27 16:02:39 💤 Idle (4 peers), best: #27 (0xaedc…29fd), finalized #24 (0xf71c…dc34), ⬇ 2.3kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:02:39 🥩 Round #25 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xe1b3041c9dc763bdc50e9f541428a62f25d2ca500567805022c58be85a83be40, block_number: 25, validator_set_id: 0 }, signatures: [Some(Signature(b60765c5cdb7bf12084b0691fd39abe9309a16d75546382290fda426ddcfe6487a787b39c07e6745b59920d78b508aa7c00fad8a56929ee125e0b1519576252101)), Some(Signature(91bfe2c3b8879542a94f5232edde29755282d51e2bece866ce5e2d10e1947c3e3a59a28e7e6d1e352360e0b3f5361ec28fece1b41395084992daac2f68a9f57501)), Some(Signature(fa594b7a0c8d16f41ae866739c47d2345c8a8c36b33ffe17ee11b9f1eb3d73f66d18f3fb52eca151881eb9ee43794579a8ca4bd8ff6a8a16a9ced6375bd83edd00))] }.    
+2021-10-27 16:02:42 ✨ Imported #28 (0x7efd…6425)    
+2021-10-27 16:02:44 💤 Idle (4 peers), best: #28 (0x7efd…6425), finalized #25 (0x741c…b373), ⬇ 3.6kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:02:48 🙌 Starting consensus session on top of parent 0x7efd9d98e406d01d8a56d1bf0ff11730d4869d79341444dba691c885024e6425    
+2021-10-27 16:02:48 🎁 Prepared block for proposing at 29 [hash: 0x3ea352079232acafa6391459a527dd69603b08bd570afc923551d4559eeab9a5; parent_hash: 0x7efd…6425; extrinsics (2): [0x19fa…a603, 0xda88…c670]]    
+2021-10-27 16:02:48 🔖 Pre-sealed block for proposal at 29. Hash now 0x62d4e5686a5010e25e4eb0244f98b0bc2e556ba93f157955d9b37e67e2480626, previously 0x3ea352079232acafa6391459a527dd69603b08bd570afc923551d4559eeab9a5.    
+2021-10-27 16:02:48 ✨ Imported #29 (0x62d4…0626)    
+2021-10-27 16:02:49 💤 Idle (4 peers), best: #29 (0x62d4…0626), finalized #25 (0x741c…b373), ⬇ 3.3kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:02:54 ✨ Imported #30 (0xd2f0…7ac9)    
+2021-10-27 16:02:54 💤 Idle (4 peers), best: #30 (0xd2f0…7ac9), finalized #25 (0x741c…b373), ⬇ 4.2kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:02:59 💤 Idle (4 peers), best: #30 (0xd2f0…7ac9), finalized #27 (0xaedc…29fd), ⬇ 2.9kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:03:00 🙌 Starting consensus session on top of parent 0xd2f0a4eafaec13671c2c592912a664aeec1d7af0d501943c3c9f2916c52e7ac9    
+2021-10-27 16:03:00 🎁 Prepared block for proposing at 31 [hash: 0x31a49a308c0137185116c7520db5f6182f7d9b2bae4f8aea2c1146e6c8bd21b2; parent_hash: 0xd2f0…7ac9; extrinsics (2): [0xd0ba…f83c, 0x0dc4…c3cb]]    
+2021-10-27 16:03:00 🔖 Pre-sealed block for proposal at 31. Hash now 0x9b84f17ffce7f554cfa5267d7a71daf41103bb6c9792039573aea71fedcd1dc9, previously 0x31a49a308c0137185116c7520db5f6182f7d9b2bae4f8aea2c1146e6c8bd21b2.    
+2021-10-27 16:03:00 👶 New epoch 3 launching at block 0x9b84…1dc9 (block slot 272554230 >= start slot 272554230).    
+2021-10-27 16:03:00 👶 Next epoch starts at slot 272554240    
+2021-10-27 16:03:00 ✨ Imported #31 (0x9b84…1dc9)    
+2021-10-27 16:03:04 💤 Idle (4 peers), best: #31 (0x9b84…1dc9), finalized #28 (0x7efd…6425), ⬇ 3.4kiB/s ⬆ 5.3kiB/s    
+2021-10-27 16:03:06 ✨ Imported #32 (0x828a…d706)    
+2021-10-27 16:03:06 Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 2, new_window_start: 0, new_window_end: 3 }
+2021-10-27 16:03:09 💤 Idle (4 peers), best: #32 (0x828a…d706), finalized #29 (0x62d4…0626), ⬇ 2.1kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:03:12 🙌 Starting consensus session on top of parent 0x828ad79089c9c576a8a46dfc259f051f299d427cef48963b61d69218fad7d706    
+2021-10-27 16:03:12 🎁 Prepared block for proposing at 33 [hash: 0x9ca470d4cfe5b26b931aa294c194a4a11391d9b94cc9cac93fe41d7a87d7761b; parent_hash: 0x828a…d706; extrinsics (2): [0x5dae…dd1f, 0xf56a…b4a4]]    
+2021-10-27 16:03:12 🔖 Pre-sealed block for proposal at 33. Hash now 0x532306cb3413c35d4ebc9f0998abbec06fa04d5e49cf88a63498530c65ef3702, previously 0x9ca470d4cfe5b26b931aa294c194a4a11391d9b94cc9cac93fe41d7a87d7761b.    
+2021-10-27 16:03:12 ✨ Imported #33 (0x5323…3702)    
+2021-10-27 16:03:12 ✨ Imported #33 (0xcba3…ffb2)    
+2021-10-27 16:03:14 💤 Idle (4 peers), best: #33 (0x5323…3702), finalized #30 (0xd2f0…7ac9), ⬇ 7.1kiB/s ⬆ 4.2kiB/s    
+2021-10-27 16:03:15 👴 Applying authority set change scheduled at block #31    
+2021-10-27 16:03:15 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:03:18 ✨ Imported #34 (0xbe1d…8008)    
+2021-10-27 16:03:19 💤 Idle (4 peers), best: #34 (0xbe1d…8008), finalized #31 (0x9b84…1dc9), ⬇ 3.6kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:03:24 🙌 Starting consensus session on top of parent 0xbe1dae56d601d0ff85439d333dd5fb394fd5ba23cae583f546550a67fcaf8008    
+2021-10-27 16:03:24 🎁 Prepared block for proposing at 35 [hash: 0x4666990975927cd04b208bd358d4d6e0845efb36ce2c6e1d4cfc99b6834b0739; parent_hash: 0xbe1d…8008; extrinsics (2): [0x4df4…4cc1, 0xe5e5…408a]]    
+2021-10-27 16:03:24 🔖 Pre-sealed block for proposal at 35. Hash now 0x77562b47a52d78be0d0584268c41004d2e5b7ef115e81c145b3544d8e5f0010e, previously 0x4666990975927cd04b208bd358d4d6e0845efb36ce2c6e1d4cfc99b6834b0739.    
+2021-10-27 16:03:24 ✨ Imported #35 (0x7756…010e)    
+2021-10-27 16:03:24 💤 Idle (4 peers), best: #35 (0x7756…010e), finalized #32 (0x828a…d706), ⬇ 3.5kiB/s ⬆ 5.8kiB/s    
+2021-10-27 16:03:27 🥩 Round #33 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x899dd6613eb192ed4632e05284249b832f9d546574c407396d55c53cf5e69581, block_number: 33, validator_set_id: 0 }, signatures: [Some(Signature(a02cd39414fcd43e4fa26752dd64661d3343b60867bb8b33d69b4beb60ca2d5355437b8c89dbaaa46f4c2707e23a58e8b95da5669a419194b791f88dc580d0ba01)), Some(Signature(0a90c7f39c720dd1c11cc6e18e0eb1b8410c4b85098589ee649608ac825dfafc48f8e9bfe1831237491335e0af4ca8a0ce0b3a3da016ed87a3978a841c8b1b8500)), Some(Signature(864461015413e45d11f2f21c783a44ecfc275ad201a61dc9ea0e9586bbaa64f419f54acb8527ec25e4dc451b4c5d333f8571496421e40965b79ce8a9cf143c9101))] }.    
+2021-10-27 16:03:29 💤 Idle (4 peers), best: #35 (0x7756…010e), finalized #33 (0x5323…3702), ⬇ 1.7kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:03:30 ✨ Imported #36 (0xc2ef…d1e2)    
+2021-10-27 16:03:34 💤 Idle (4 peers), best: #36 (0xc2ef…d1e2), finalized #33 (0x5323…3702), ⬇ 2.2kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:03:36 ✨ Imported #37 (0x1523…21f8)    
+2021-10-27 16:03:39 💤 Idle (4 peers), best: #37 (0x1523…21f8), finalized #34 (0xbe1d…8008), ⬇ 3.9kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:03:42 ✨ Imported #38 (0x7426…2e80)    
+2021-10-27 16:03:44 💤 Idle (4 peers), best: #38 (0x7426…2e80), finalized #35 (0x7756…010e), ⬇ 3.7kiB/s ⬆ 4.5kiB/s    
+2021-10-27 16:03:48 ✨ Imported #39 (0x847c…3299)    
+2021-10-27 16:03:49 💤 Idle (4 peers), best: #39 (0x847c…3299), finalized #36 (0xc2ef…d1e2), ⬇ 3.1kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:03:54 ✨ Imported #40 (0x498f…8785)    
+2021-10-27 16:03:54 💤 Idle (4 peers), best: #40 (0x498f…8785), finalized #36 (0xc2ef…d1e2), ⬇ 3.1kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:03:59 💤 Idle (4 peers), best: #40 (0x498f…8785), finalized #37 (0x1523…21f8), ⬇ 1.4kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:04:00 👶 New epoch 4 launching at block 0xc853…94a6 (block slot 272554240 >= start slot 272554240).    
+2021-10-27 16:04:00 👶 Next epoch starts at slot 272554250    
+2021-10-27 16:04:00 ✨ Imported #41 (0xc853…94a6)    
+2021-10-27 16:04:04 💤 Idle (4 peers), best: #41 (0xc853…94a6), finalized #39 (0x847c…3299), ⬇ 5.2kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:04:06 ✨ Imported #42 (0xc595…3d0e)    
+2021-10-27 16:04:06 Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 3, new_window_start: 0, new_window_end: 4 }
+2021-10-27 16:04:09 💤 Idle (4 peers), best: #42 (0xc595…3d0e), finalized #39 (0x847c…3299), ⬇ 5.0kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:04:12 ✨ Imported #43 (0x5e5c…f262)    
+2021-10-27 16:04:14 💤 Idle (4 peers), best: #43 (0x5e5c…f262), finalized #40 (0x498f…8785), ⬇ 4.1kiB/s ⬆ 4.7kiB/s    
+2021-10-27 16:04:15 👴 Applying authority set change scheduled at block #41    
+2021-10-27 16:04:15 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:04:15 🥩 Round #41 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x3a5a32c7af033084702a83147d972f7dd07823c3ec22a49635ead2948f405e45, block_number: 41, validator_set_id: 0 }, signatures: [Some(Signature(b92bf742ec62053ffe6bdbf48d2d57ec8a315c46e98941d114b54ff41a13c96f151a537eb754e9e6c78fee4ee1b4933160265c13f136ad8a9f763baf97f05c9200)), Some(Signature(ae5e6e0153b7d1a3860f0ccf691a6913c6212107661d2164f43630aca210ae4f1bd682066459fb983f5d43671720560ec1d55f1f19e86044d4ce2dd12e18213a01)), Some(Signature(549bf0c0fd9541b64c1f08f59d75cc311609844bc07e0ac3bcc4c436785e6fd56703aa396b7df1718e4c221d8bfdfbe608c41001b9c21263110baf6fb1e0ccb400))] }.    
+2021-10-27 16:04:18 🙌 Starting consensus session on top of parent 0x5e5cff0251768647986d5caa8882c3365010a63c8f7659b609e98f9cd108f262    
+2021-10-27 16:04:18 🎁 Prepared block for proposing at 44 [hash: 0xf73526189978743e80f2d790be26b85c19488a5dda30c84a3441e27e3f50cffa; parent_hash: 0x5e5c…f262; extrinsics (2): [0x3f3f…43a7, 0x2304…d928]]    
+2021-10-27 16:04:18 🔖 Pre-sealed block for proposal at 44. Hash now 0x7843eaa982c69e1facaa4fa836e64e32813a31064db96545c5f382adc3b9ff87, previously 0xf73526189978743e80f2d790be26b85c19488a5dda30c84a3441e27e3f50cffa.    
+2021-10-27 16:04:18 ✨ Imported #44 (0x7843…ff87)    
+2021-10-27 16:04:18 ♻️  Reorg on #44,0x7843…ff87 to #44,0xf245…d4a0, common ancestor #43,0x5e5c…f262    
+2021-10-27 16:04:18 ✨ Imported #44 (0xf245…d4a0)    
+2021-10-27 16:04:19 💤 Idle (4 peers), best: #44 (0xf245…d4a0), finalized #41 (0xc853…94a6), ⬇ 2.0kiB/s ⬆ 4.0kiB/s    
+2021-10-27 16:04:24 🙌 Starting consensus session on top of parent 0xf24584ed01d16ebab3ad36c85b13494865f7c0d886334b277301eddd25d6d4a0    
+2021-10-27 16:04:24 🎁 Prepared block for proposing at 45 [hash: 0x28460828c97958b62f8e2a7741b37d84ed58d81bba82053bc5d132021554c58c; parent_hash: 0xf245…d4a0; extrinsics (2): [0xd70b…1f8d, 0x933b…0e14]]    
+2021-10-27 16:04:24 🔖 Pre-sealed block for proposal at 45. Hash now 0xb4f4f56452ba972773bea0ad9f372783d4d96173a0be984e530130c945a3dfa7, previously 0x28460828c97958b62f8e2a7741b37d84ed58d81bba82053bc5d132021554c58c.    
+2021-10-27 16:04:24 ✨ Imported #45 (0xb4f4…dfa7)    
+2021-10-27 16:04:24 💤 Idle (4 peers), best: #45 (0xb4f4…dfa7), finalized #42 (0xc595…3d0e), ⬇ 3.8kiB/s ⬆ 3.9kiB/s    
+2021-10-27 16:04:29 💤 Idle (4 peers), best: #45 (0xb4f4…dfa7), finalized #43 (0x5e5c…f262), ⬇ 1.2kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:04:30 ✨ Imported #46 (0x4be0…58aa)    
+2021-10-27 16:04:34 💤 Idle (4 peers), best: #46 (0x4be0…58aa), finalized #43 (0x5e5c…f262), ⬇ 3.4kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:04:36 ✨ Imported #47 (0x8629…d418)    
+2021-10-27 16:04:39 💤 Idle (4 peers), best: #47 (0x8629…d418), finalized #44 (0xf245…d4a0), ⬇ 3.1kiB/s ⬆ 1.7kiB/s    
+2021-10-27 16:04:42 🙌 Starting consensus session on top of parent 0x8629c0ddec85f70c173b4ed5756c4908fe8e3d40fbb54e7fa0137358551bd418    
+2021-10-27 16:04:42 🎁 Prepared block for proposing at 48 [hash: 0xa490333fba05b61fc163abf94d244797b92d674f4338d7eecea61e8e629ee46d; parent_hash: 0x8629…d418; extrinsics (2): [0xa4b4…ee06, 0x2ed5…b4d2]]    
+2021-10-27 16:04:42 🔖 Pre-sealed block for proposal at 48. Hash now 0xf467e319fc0023c4cec48c991c07b18f603b59987e194b39b07cb8b98d90d5c9, previously 0xa490333fba05b61fc163abf94d244797b92d674f4338d7eecea61e8e629ee46d.    
+2021-10-27 16:04:42 ✨ Imported #48 (0xf467…d5c9)    
+2021-10-27 16:04:44 💤 Idle (4 peers), best: #48 (0xf467…d5c9), finalized #45 (0xb4f4…dfa7), ⬇ 3.5kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:04:48 ✨ Imported #49 (0xd65f…1f9c)    
+2021-10-27 16:04:49 💤 Idle (4 peers), best: #49 (0xd65f…1f9c), finalized #46 (0x4be0…58aa), ⬇ 4.2kiB/s ⬆ 1.7kiB/s    
+2021-10-27 16:04:54 ✨ Imported #50 (0x25a2…aa26)    
+2021-10-27 16:04:54 💤 Idle (4 peers), best: #50 (0x25a2…aa26), finalized #47 (0x8629…d418), ⬇ 4.1kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:04:59 💤 Idle (4 peers), best: #50 (0x25a2…aa26), finalized #47 (0x8629…d418), ⬇ 2.9kiB/s ⬆ 6.5kiB/s    
+2021-10-27 16:05:00 👶 New epoch 5 launching at block 0x67f1…f5c1 (block slot 272554250 >= start slot 272554250).    
+2021-10-27 16:05:00 👶 Next epoch starts at slot 272554260    
+2021-10-27 16:05:00 ✨ Imported #51 (0x67f1…f5c1)    
+2021-10-27 16:05:03 🥩 Round #49 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x5db48822d4e6934bfacdbb5616caff0c99e01762621a57e294a4c85ea40e554a, block_number: 49, validator_set_id: 0 }, signatures: [Some(Signature(f2dbc75fae15a29585c4ba8dd46752ccbb33d1225323fd550579151b8dc9d9ce21860e5200709ad807b7376ca8d43e87bb6981f55d4e234f597634459ad2e4fa01)), Some(Signature(52ebd0e1d553b4299266334bb76f02ec5d893f7959bb8c6196ee15b49e88eb8f0aeafe4d245523fe8294c1d138e4d370cc8de7c5d8df80849c4da4c782fd903b01)), Some(Signature(fff994b4998f234e8fb9214285451fdab633417cb731e36a08b5b682a5d9fc03102af1c0d5bdb07e6f88ba45307788a587415248365ff6fb46778edccbc4834900))] }.    
+2021-10-27 16:05:04 💤 Idle (4 peers), best: #51 (0x67f1…f5c1), finalized #49 (0xd65f…1f9c), ⬇ 5.1kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:05:06 ✨ Imported #52 (0x6d5c…15ee)    
+2021-10-27 16:05:06 Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 4, new_window_start: 0, new_window_end: 5 }
+2021-10-27 16:05:09 💤 Idle (4 peers), best: #52 (0x6d5c…15ee), finalized #49 (0xd65f…1f9c), ⬇ 2.1kiB/s ⬆ 1.7kiB/s    
+2021-10-27 16:05:12 🙌 Starting consensus session on top of parent 0x6d5cb5ffed9da6d7655784d16633731d1305ef02ead7c1db91caa5c1f4cd15ee    
+2021-10-27 16:05:12 🎁 Prepared block for proposing at 53 [hash: 0x6d98bee40838c379a26f31aef60f6dcef944a8cd15b429650a6bf5fe96847e57; parent_hash: 0x6d5c…15ee; extrinsics (2): [0x660c…eea7, 0x4064…870c]]    
+2021-10-27 16:05:12 🔖 Pre-sealed block for proposal at 53. Hash now 0xfa76b499a1cc7e943daccccba7e78e149795669a7d3f229229e446ee5be57212, previously 0x6d98bee40838c379a26f31aef60f6dcef944a8cd15b429650a6bf5fe96847e57.    
+2021-10-27 16:05:12 ✨ Imported #53 (0xfa76…7212)    
+2021-10-27 16:05:14 💤 Idle (4 peers), best: #53 (0xfa76…7212), finalized #50 (0x25a2…aa26), ⬇ 5.2kiB/s ⬆ 3.8kiB/s    
+2021-10-27 16:05:15 👴 Applying authority set change scheduled at block #51    
+2021-10-27 16:05:15 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:05:18 ✨ Imported #54 (0x7de8…a785)    
+2021-10-27 16:05:19 💤 Idle (4 peers), best: #54 (0x7de8…a785), finalized #51 (0x67f1…f5c1), ⬇ 3.7kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:05:24 ✨ Imported #55 (0x432c…91b5)    
+2021-10-27 16:05:24 ♻️  Reorg on #55,0x432c…91b5 to #55,0xd339…f183, common ancestor #54,0x7de8…a785    
+2021-10-27 16:05:24 ✨ Imported #55 (0xd339…f183)    
+2021-10-27 16:05:24 💤 Idle (4 peers), best: #55 (0xd339…f183), finalized #52 (0x6d5c…15ee), ⬇ 3.9kiB/s ⬆ 5.3kiB/s    
+2021-10-27 16:05:29 💤 Idle (4 peers), best: #55 (0xd339…f183), finalized #53 (0xfa76…7212), ⬇ 1.6kiB/s ⬆ 1.5kiB/s    
+2021-10-27 16:05:30 ✨ Imported #56 (0xb282…0373)    
+2021-10-27 16:05:34 💤 Idle (4 peers), best: #56 (0xb282…0373), finalized #53 (0xfa76…7212), ⬇ 2.2kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:05:36 🙌 Starting consensus session on top of parent 0xb28219ee7519287162ddbe64093cf9094ca231b3440c30035de895f331790373    
+2021-10-27 16:05:36 🎁 Prepared block for proposing at 57 [hash: 0x7523c84eb4899eb7061a99153c0d47c71939d1b9838ef0f809885c4b70431f8c; parent_hash: 0xb282…0373; extrinsics (2): [0x0f7c…bad0, 0x4fd5…9ef1]]    
+2021-10-27 16:05:36 🔖 Pre-sealed block for proposal at 57. Hash now 0xcfdeb773b9293dde70bb3ade5e80b77f169cf4922c05aa23da3ec29f71d19900, previously 0x7523c84eb4899eb7061a99153c0d47c71939d1b9838ef0f809885c4b70431f8c.    
+2021-10-27 16:05:36 ✨ Imported #57 (0xcfde…9900)    
+2021-10-27 16:05:39 💤 Idle (4 peers), best: #57 (0xcfde…9900), finalized #53 (0xfa76…7212), ⬇ 4.0kiB/s ⬆ 3.6kiB/s    
+2021-10-27 16:05:42 ✨ Imported #58 (0x5f8b…90ea)    
+2021-10-27 16:05:44 💤 Idle (4 peers), best: #58 (0x5f8b…90ea), finalized #55 (0xd339…f183), ⬇ 4.7kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:05:48 ✨ Imported #59 (0x3912…be9a)    
+2021-10-27 16:05:49 💤 Idle (4 peers), best: #59 (0x3912…be9a), finalized #56 (0xb282…0373), ⬇ 3.0kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:05:52 🥩 Round #57 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xed5114ddabb313866d4d80088bcc653a0c4079d8dcae06943fd429108c2969c7, block_number: 57, validator_set_id: 0 }, signatures: [Some(Signature(22fecda9b8808607641a3ec6a0d0fcf9c64660d600e0b221e32e26d0e1a08aab54d2976b49447dff87f2e8626724388ebc0fc2b4533ea9904d0e97770434145a01)), Some(Signature(43ee49d4ae7123fabac7cb630cc01c949649e13a80c2b820b1cca50b006381c033433667bdfc807d92ace2d0b301bf99fd29cba50109d16cdd838edf364009b700)), Some(Signature(6aca0f7b2098d8391608326e9a0bf7353a9b27faa08795955461be134bcb4ca64bd8ccb8aa8727f96a74fa04a018a9c6e22f537470e0fd5da78a2b8c1aeb6d5900))] }.    
+2021-10-27 16:05:54 ✨ Imported #60 (0x580b…2708)    
+2021-10-27 16:05:54 💤 Idle (4 peers), best: #60 (0x580b…2708), finalized #57 (0xcfde…9900), ⬇ 2.7kiB/s ⬆ 3.6kiB/s    
+2021-10-27 16:05:59 💤 Idle (4 peers), best: #60 (0x580b…2708), finalized #57 (0xcfde…9900), ⬇ 1.4kiB/s ⬆ 1.4kiB/s    
+2021-10-27 16:06:00 👶 New epoch 6 launching at block 0x8dc7…14ab (block slot 272554260 >= start slot 272554260).    
+2021-10-27 16:06:00 👶 Next epoch starts at slot 272554270    
+2021-10-27 16:06:00 ✨ Imported #61 (0x8dc7…14ab)    
+2021-10-27 16:06:04 💤 Idle (4 peers), best: #61 (0x8dc7…14ab), finalized #59 (0x3912…be9a), ⬇ 4.5kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:06:06 ✨ Imported #62 (0x9737…4b0a)    
+2021-10-27 16:06:06 Advanced session window for approvals update=Advanced { prev_window_start: 0, prev_window_end: 5, new_window_start: 1, new_window_end: 6 }
+2021-10-27 16:06:09 💤 Idle (4 peers), best: #62 (0x9737…4b0a), finalized #60 (0x580b…2708), ⬇ 3.7kiB/s ⬆ 4.1kiB/s    
+2021-10-27 16:06:12 🙌 Starting consensus session on top of parent 0x97374408667ee14cc639ded454637f1173b4f20093f7112148bb986eb7c24b0a    
+2021-10-27 16:06:12 🎁 Prepared block for proposing at 63 [hash: 0x3c76e02b169163871dbaca0847d6f3279fd45f410c8a473f00b6f98f5f1e5cbf; parent_hash: 0x9737…4b0a; extrinsics (2): [0x34d0…b87b, 0x877a…41bd]]    
+2021-10-27 16:06:12 🔖 Pre-sealed block for proposal at 63. Hash now 0x13d782c23287ea1e2d35400a0735e1a6bf12e16ab6c784d41912d50f1bb8b56b, previously 0x3c76e02b169163871dbaca0847d6f3279fd45f410c8a473f00b6f98f5f1e5cbf.    
+2021-10-27 16:06:12 ✨ Imported #63 (0x13d7…b56b)    
+2021-10-27 16:06:12 ✨ Imported #63 (0xaa2b…eaa4)    
+2021-10-27 16:06:14 💤 Idle (4 peers), best: #63 (0x13d7…b56b), finalized #60 (0x580b…2708), ⬇ 4.2kiB/s ⬆ 5.2kiB/s    
+2021-10-27 16:06:16 👴 Applying authority set change scheduled at block #61    
+2021-10-27 16:06:16 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:06:18 ✨ Imported #64 (0xe08b…221f)    
+2021-10-27 16:06:18 ✨ Imported #64 (0xd9b4…cae5)    
+2021-10-27 16:06:19 💤 Idle (4 peers), best: #64 (0xe08b…221f), finalized #61 (0x8dc7…14ab), ⬇ 3.1kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:06:24 ✨ Imported #65 (0xcd61…0e31)    
+2021-10-27 16:06:24 💤 Idle (4 peers), best: #65 (0xcd61…0e31), finalized #62 (0x9737…4b0a), ⬇ 3.4kiB/s ⬆ 2.5kiB/s    
+2021-10-27 16:06:29 💤 Idle (4 peers), best: #65 (0xcd61…0e31), finalized #63 (0x13d7…b56b), ⬇ 1.5kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:06:30 🙌 Starting consensus session on top of parent 0xcd61798e0dd292b2454af998ebefa9f266b572941f00a1b41325e7749cf80e31    
+2021-10-27 16:06:30 🎁 Prepared block for proposing at 66 [hash: 0x29b4a52b094e1eff902bd4516c63381dbfc4b4034411cd73d558d8f65f9a7d21; parent_hash: 0xcd61…0e31; extrinsics (2): [0x2dd7…7652, 0x16c9…7448]]    
+2021-10-27 16:06:30 🔖 Pre-sealed block for proposal at 66. Hash now 0xce3a6a1f7283b56b4d1bc5cb4e314e619498da9c4999b74bbfb5562ae2e20c1f, previously 0x29b4a52b094e1eff902bd4516c63381dbfc4b4034411cd73d558d8f65f9a7d21.    
+2021-10-27 16:06:30 ✨ Imported #66 (0xce3a…0c1f)    
+2021-10-27 16:06:34 💤 Idle (4 peers), best: #66 (0xce3a…0c1f), finalized #64 (0xe08b…221f), ⬇ 3.7kiB/s ⬆ 5.9kiB/s    
+2021-10-27 16:06:36 ✨ Imported #67 (0x0996…89be)    
+2021-10-27 16:06:39 💤 Idle (4 peers), best: #67 (0x0996…89be), finalized #64 (0xe08b…221f), ⬇ 2.9kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:06:40 🥩 Round #65 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xe6c028e7a842ee5bc8d779bf30a3eb49af41070d1afafcf6c472574273ddf5b4, block_number: 65, validator_set_id: 0 }, signatures: [Some(Signature(996eafc6a5d07e9eda5bdbc0ffcdc67c93900511917a52aa90fbb9dba6a0762126ac9acbc21fb825e1f648154301e14aab536c2ce61aaa97432659f396b0837e00)), Some(Signature(e6a23574fada7bf8e2dce47da359ae927d056fc0c2a02add3417dd2a1ca30ba93d00037eb39350bb4f48744e8072390f05972e17831878c0e797b1d22271cee301)), Some(Signature(2bac0070d0f24d517aa65bb3353f69439bd8b6097c8e0a32b4ff5973141ca5ac182d016f45f048eb116095564a4662d8a5b211bff2640f920a993245a23bc14b00))] }.    
+2021-10-27 16:06:42 ✨ Imported #68 (0xed51…9145)    
+2021-10-27 16:06:44 💤 Idle (4 peers), best: #68 (0xed51…9145), finalized #66 (0xce3a…0c1f), ⬇ 2.6kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:06:48 ✨ Imported #69 (0x2036…79fc)    
+2021-10-27 16:06:49 💤 Idle (4 peers), best: #69 (0x2036…79fc), finalized #66 (0xce3a…0c1f), ⬇ 4.2kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:06:54 🙌 Starting consensus session on top of parent 0x2036ce22a3ec8d536b5712869a9c551237415aebae2362132a91dd6e027879fc    
+2021-10-27 16:06:54 🎁 Prepared block for proposing at 70 [hash: 0x937e3ec8f9f0cba0397e96f99ae26906c48bcfa6c0a85072037172bd877ac666; parent_hash: 0x2036…79fc; extrinsics (2): [0x3b4f…e49a, 0x3de0…d47d]]    
+2021-10-27 16:06:54 🔖 Pre-sealed block for proposal at 70. Hash now 0x2ea1167457de90ad366f768780801541d15db51a160253cdec4b00045f04314c, previously 0x937e3ec8f9f0cba0397e96f99ae26906c48bcfa6c0a85072037172bd877ac666.    
+2021-10-27 16:06:54 ✨ Imported #70 (0x2ea1…314c)    
+2021-10-27 16:06:54 ♻️  Reorg on #70,0x2ea1…314c to #70,0x03dd…14c9, common ancestor #69,0x2036…79fc    
+2021-10-27 16:06:54 ✨ Imported #70 (0x03dd…14c9)    
+2021-10-27 16:06:54 ✨ Imported #70 (0x7ace…4ba7)    
+2021-10-27 16:06:54 💤 Idle (4 peers), best: #70 (0x03dd…14c9), finalized #67 (0x0996…89be), ⬇ 8.4kiB/s ⬆ 5.0kiB/s    
+2021-10-27 16:06:59 💤 Idle (4 peers), best: #70 (0x03dd…14c9), finalized #68 (0xed51…9145), ⬇ 2.0kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:07:00 👶 New epoch 7 launching at block 0xdcda…6426 (block slot 272554270 >= start slot 272554270).    
+2021-10-27 16:07:00 👶 Next epoch starts at slot 272554280    
+2021-10-27 16:07:00 ♻️  Reorg on #70,0x03dd…14c9 to #71,0xdcda…6426, common ancestor #69,0x2036…79fc    
+2021-10-27 16:07:00 ✨ Imported #71 (0xdcda…6426)    
+2021-10-27 16:07:04 💤 Idle (4 peers), best: #71 (0xdcda…6426), finalized #69 (0x2036…79fc), ⬇ 3.7kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:07:06 ✨ Imported #72 (0xf3cd…bde6)    
+2021-10-27 16:07:06 Advanced session window for approvals update=Advanced { prev_window_start: 1, prev_window_end: 6, new_window_start: 2, new_window_end: 7 }
+2021-10-27 16:07:06 ✨ Imported #72 (0x6ca1…dc3e)    
+2021-10-27 16:07:09 💤 Idle (4 peers), best: #72 (0xf3cd…bde6), finalized #70 (0x7ace…4ba7), ⬇ 3.3kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:07:12 ✨ Imported #73 (0xf592…7583)    
+2021-10-27 16:07:14 💤 Idle (4 peers), best: #73 (0xf592…7583), finalized #70 (0x7ace…4ba7), ⬇ 4.7kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:07:16 👴 Applying authority set change scheduled at block #71    
+2021-10-27 16:07:16 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:07:18 🙌 Starting consensus session on top of parent 0xf592d6036cef9bce2905cd7d7ad80e69a0fd7e857af0b069453a6d7c4fa07583    
+2021-10-27 16:07:18 🎁 Prepared block for proposing at 74 [hash: 0x461fd4f061598d0a577f6b46f7beb799808b5330f4bd856b1590ff005835b744; parent_hash: 0xf592…7583; extrinsics (2): [0x0f92…72b2, 0x3205…6444]]    
+2021-10-27 16:07:18 🔖 Pre-sealed block for proposal at 74. Hash now 0x65174501c9e43b4a620ef8a23f8fbcdf59942da233d895924c9449d81afd1960, previously 0x461fd4f061598d0a577f6b46f7beb799808b5330f4bd856b1590ff005835b744.    
+2021-10-27 16:07:18 ✨ Imported #74 (0x6517…1960)    
+2021-10-27 16:07:18 ✨ Imported #74 (0xdf51…34c7)    
+2021-10-27 16:07:19 💤 Idle (4 peers), best: #74 (0x6517…1960), finalized #71 (0xdcda…6426), ⬇ 6.8kiB/s ⬆ 4.2kiB/s    
+2021-10-27 16:07:24 ✨ Imported #75 (0x99a3…1b7e)    
+2021-10-27 16:07:24 💤 Idle (4 peers), best: #75 (0x99a3…1b7e), finalized #72 (0xf3cd…bde6), ⬇ 3.4kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:07:29 💤 Idle (4 peers), best: #75 (0x99a3…1b7e), finalized #72 (0xf3cd…bde6), ⬇ 1.1kiB/s ⬆ 1.1kiB/s    
+2021-10-27 16:07:30 🙌 Starting consensus session on top of parent 0x99a38badfa507203fd3ecfd8c1ccddaa8d2555247ea677941fbb26b132421b7e    
+2021-10-27 16:07:30 🎁 Prepared block for proposing at 76 [hash: 0x0248a8c13f25369da07cb2b9e2b0c0d25de6e9607d60863b3bfbd95593f54382; parent_hash: 0x99a3…1b7e; extrinsics (2): [0x8fc1…86e9, 0x95e7…df9a]]    
+2021-10-27 16:07:30 🔖 Pre-sealed block for proposal at 76. Hash now 0x1299f1d01b4bb7c891c34e6ba77dc98150374955a7d45d55b700d13aa7e79639, previously 0x0248a8c13f25369da07cb2b9e2b0c0d25de6e9607d60863b3bfbd95593f54382.    
+2021-10-27 16:07:30 ✨ Imported #76 (0x1299…9639)    
+2021-10-27 16:07:32 🥩 Round #73 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xafb79f262bf5b718724552ddf1cec097c3dc28cf62fa4363c3e7a349588f9039, block_number: 73, validator_set_id: 0 }, signatures: [Some(Signature(19ee1a036f942a949bbf3d1120a974453cb3d4ece192405a121643aaaee73d8245d5f103ee72d16d7d72b224e97ae5f693f8e22be8e4cd52f62fcf2b967e91ce01)), Some(Signature(0b66e52bcce056a0387bdaca86d331627fd68441d72c820f58b49aa49c4ef8a671997be54253784b7c945bd7f507feaea39241ae29536124c397cd4c31bcae7b00)), Some(Signature(92fd49aa95dffec54b0cc2071ec8fa3fa4f383c8a9b3a0308b3223e33e0f8e09731f6bf9e247177549ff25e413f6a7448037665dc7518c2b14ab0d44fcbc062301))] }.    
+2021-10-27 16:07:34 💤 Idle (4 peers), best: #76 (0x1299…9639), finalized #74 (0x6517…1960), ⬇ 2.2kiB/s ⬆ 5.7kiB/s    
+2021-10-27 16:07:36 ✨ Imported #77 (0x0715…51dd)    
+2021-10-27 16:07:39 💤 Idle (4 peers), best: #77 (0x0715…51dd), finalized #74 (0x6517…1960), ⬇ 3.9kiB/s ⬆ 1.5kiB/s    
+2021-10-27 16:07:42 🙌 Starting consensus session on top of parent 0x0715cf4658897cead13e1897d89ef24b746bc20bbc201604a83507dad3b851dd    
+2021-10-27 16:07:42 🎁 Prepared block for proposing at 78 [hash: 0xfb9c0af1fc149502a808b2bf2fdeef6cccc5451f683b8c4d4c544d7ee2f8dc2c; parent_hash: 0x0715…51dd; extrinsics (2): [0x381d…891c, 0xb6c3…bbca]]    
+2021-10-27 16:07:42 🔖 Pre-sealed block for proposal at 78. Hash now 0x1f89a06e32ba8836d9908eec94e0ebae7b1d92cacb097a28acb558d20e15a7b0, previously 0xfb9c0af1fc149502a808b2bf2fdeef6cccc5451f683b8c4d4c544d7ee2f8dc2c.    
+2021-10-27 16:07:42 ✨ Imported #78 (0x1f89…a7b0)    
+2021-10-27 16:07:44 💤 Idle (4 peers), best: #78 (0x1f89…a7b0), finalized #76 (0x1299…9639), ⬇ 5.5kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:07:48 ✨ Imported #79 (0xacac…e556)    
+2021-10-27 16:07:49 💤 Idle (4 peers), best: #79 (0xacac…e556), finalized #76 (0x1299…9639), ⬇ 3.3kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:07:54 🙌 Starting consensus session on top of parent 0xacac657cd446e03ca26fd49627a8d2f5981f8091a8fc9ec09dd36c552474e556    
+2021-10-27 16:07:54 🎁 Prepared block for proposing at 80 [hash: 0x5c6ffc2fecac10cddb31b10488057838cc9d543ac81fc08bbcd40f3ce84bd5d9; parent_hash: 0xacac…e556; extrinsics (2): [0x2579…f191, 0xb443…d05d]]    
+2021-10-27 16:07:54 🔖 Pre-sealed block for proposal at 80. Hash now 0x3e2884c24ba10e931006fa8d69865d544e88dbf867f730ddc82ab12fc4548d54, previously 0x5c6ffc2fecac10cddb31b10488057838cc9d543ac81fc08bbcd40f3ce84bd5d9.    
+2021-10-27 16:07:54 ✨ Imported #80 (0x3e28…8d54)    
+2021-10-27 16:07:54 💤 Idle (4 peers), best: #80 (0x3e28…8d54), finalized #77 (0x0715…51dd), ⬇ 2.0kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:07:59 💤 Idle (4 peers), best: #80 (0x3e28…8d54), finalized #78 (0x1f89…a7b0), ⬇ 1.8kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:08:00 👶 New epoch 8 launching at block 0x25d1…a737 (block slot 272554280 >= start slot 272554280).    
+2021-10-27 16:08:00 👶 Next epoch starts at slot 272554290    
+2021-10-27 16:08:00 ✨ Imported #81 (0x25d1…a737)    
+2021-10-27 16:08:04 💤 Idle (4 peers), best: #81 (0x25d1…a737), finalized #79 (0xacac…e556), ⬇ 5.0kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:08:06 ✨ Imported #82 (0x1670…ebd1)    
+2021-10-27 16:08:06 Advanced session window for approvals update=Advanced { prev_window_start: 2, prev_window_end: 7, new_window_start: 3, new_window_end: 8 }
+2021-10-27 16:08:09 💤 Idle (4 peers), best: #82 (0x1670…ebd1), finalized #80 (0x3e28…8d54), ⬇ 5.6kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:08:12 ✨ Imported #83 (0x8f05…4cf2)    
+2021-10-27 16:08:12 [index: 0] Reporting im-online at block: 83 (session: 8): Call::heartbeat(Heartbeat { block_number: 83, network_state: OpaqueNetworkState { peer_id: OpaquePeerId([152, 0, 36, 8, 1, 18, 32, 153, 159, 219, 252, 203, 48, 97, 246, 135, 231, 133, 106, 8, 211, 164, 212, 62, 118, 243, 164, 226, 18, 85, 10, 239, 175, 98, 224, 238, 133, 81, 207]), external_addresses: [OpaqueMultiaddr([112, 47, 105, 112, 52, 47, 49, 55, 50, 46, 49, 54, 46, 49, 48, 46, 49, 50, 56, 47, 116, 99, 112, 47, 51, 48, 52, 52, 52])] }, session_index: 8, authority_index: 0, validators_len: 3 }, Signature(d800b99f4118daf0e5aa1575a6c810e0edde0a862bfd05b7c5bbb2a1417c20198ce2f7cfa63148ea39ac560cadf00f545ce179ae4d655f1824b7136c442acd8b))    
+2021-10-27 16:08:14 💤 Idle (4 peers), best: #83 (0x8f05…4cf2), finalized #80 (0x3e28…8d54), ⬇ 3.3kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:08:18 🙌 Starting consensus session on top of parent 0x8f0552bf3d9dc30e69c7a666434781aa454ebf960d9ba148f6857bad46f14cf2    
+2021-10-27 16:08:18 🎁 Prepared block for proposing at 84 [hash: 0xf237fd44a5bcc11d1313b92802b9880fcab39d1cb0e14f282dc1933248eae183; parent_hash: 0x8f05…4cf2; extrinsics (2): [0x4b8d…2a04, 0xd48a…697f]]    
+2021-10-27 16:08:18 🔖 Pre-sealed block for proposal at 84. Hash now 0x80d512aff058f64abc9611296b2bef20050cbbceb7736b07d89f07c63b253240, previously 0xf237fd44a5bcc11d1313b92802b9880fcab39d1cb0e14f282dc1933248eae183.    
+2021-10-27 16:08:18 ✨ Imported #84 (0x80d5…3240)    
+2021-10-27 16:08:19 💤 Idle (4 peers), best: #84 (0x80d5…3240), finalized #80 (0x3e28…8d54), ⬇ 1.8kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:08:20 👴 Applying authority set change scheduled at block #81    
+2021-10-27 16:08:20 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:08:20 🥩 Round #81 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x8dae9bc65e694d3a62efa7903b11280feb205b351f2d55c50610ab9a0aa6b32f, block_number: 81, validator_set_id: 0 }, signatures: [Some(Signature(f5e09c18f3a04a324d4386b2681339c1f6342d908cfdd33e954264e543cb1cff6608aaf8fda4ad7d70d553c0ca5389b448512e62b25e86e3029c0e21583829da00)), Some(Signature(a7d87e867f23bc15b51607c1a1ee952e691e0cbe69677dfb2b0547e8e7ba13ad5b56b499e05b10058b0273cedef92bf7ac689957704074a126bfec0c475a11a701)), Some(Signature(5aa3e3af260738a5face18a3c071c75b206bdc0eab566cadb88a22f719ad14be3738965962a8e065488ad6aa4b895d075787d86dffdb22a93173e14fa408396300))] }.    
+2021-10-27 16:08:24 ✨ Imported #85 (0x103a…edc1)    
+2021-10-27 16:08:24 💤 Idle (4 peers), best: #85 (0x103a…edc1), finalized #82 (0x1670…ebd1), ⬇ 5.0kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:08:29 💤 Idle (4 peers), best: #85 (0x103a…edc1), finalized #83 (0x8f05…4cf2), ⬇ 1.9kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:08:30 ✨ Imported #86 (0xe02f…c5ae)    
+2021-10-27 16:08:34 💤 Idle (4 peers), best: #86 (0xe02f…c5ae), finalized #84 (0x80d5…3240), ⬇ 4.5kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:08:36 🙌 Starting consensus session on top of parent 0xe02f65d217ba3bd707269776fb50f9a26edb0196516566001cf75d860644c5ae    
+2021-10-27 16:08:36 🎁 Prepared block for proposing at 87 [hash: 0x94a5cf33afc5214e83de2e3a1459d6f98ce8eb06912b8262e7f62f421ea48e1f; parent_hash: 0xe02f…c5ae; extrinsics (2): [0x896d…a6b0, 0xa5aa…a3ed]]    
+2021-10-27 16:08:36 🔖 Pre-sealed block for proposal at 87. Hash now 0x3c92f7ad24ea80b6118a7ba143fb4cf1c93260f0ccd4998c36a1cd09e7e6e190, previously 0x94a5cf33afc5214e83de2e3a1459d6f98ce8eb06912b8262e7f62f421ea48e1f.    
+2021-10-27 16:08:36 ✨ Imported #87 (0x3c92…e190)    
+2021-10-27 16:08:39 💤 Idle (4 peers), best: #87 (0x3c92…e190), finalized #84 (0x80d5…3240), ⬇ 2.9kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:08:42 ✨ Imported #88 (0x3054…4f90)    
+2021-10-27 16:08:44 💤 Idle (4 peers), best: #88 (0x3054…4f90), finalized #85 (0x103a…edc1), ⬇ 2.2kiB/s ⬆ 3.4kiB/s    
+2021-10-27 16:08:48 ✨ Imported #89 (0x62af…e10c)    
+2021-10-27 16:08:49 💤 Idle (4 peers), best: #89 (0x62af…e10c), finalized #86 (0xe02f…c5ae), ⬇ 4.9kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:08:54 ✨ Imported #90 (0x3c01…c156)    
+2021-10-27 16:08:54 💤 Idle (4 peers), best: #90 (0x3c01…c156), finalized #87 (0x3c92…e190), ⬇ 3.3kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:08:59 💤 Idle (4 peers), best: #90 (0x3c01…c156), finalized #88 (0x3054…4f90), ⬇ 2.1kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:09:00 🙌 Starting consensus session on top of parent 0x3c012e805ee6979c4facc35560a8f18718b2f1cfde2aa28c72b714ff5601c156    
+2021-10-27 16:09:00 🎁 Prepared block for proposing at 91 [hash: 0xfa9a7b33602081e5a2adc66fc84391a8d4f513343c640624b651c41b0e03a7a7; parent_hash: 0x3c01…c156; extrinsics (2): [0x1327…eeed, 0xa01b…230a]]    
+2021-10-27 16:09:00 🔖 Pre-sealed block for proposal at 91. Hash now 0x16e3983f22c24bf82f4b8582b94a9408d4a3054478b2c0825388fcd146e3454e, previously 0xfa9a7b33602081e5a2adc66fc84391a8d4f513343c640624b651c41b0e03a7a7.    
+2021-10-27 16:09:00 👶 New epoch 9 launching at block 0x16e3…454e (block slot 272554290 >= start slot 272554290).    
+2021-10-27 16:09:00 👶 Next epoch starts at slot 272554300    
+2021-10-27 16:09:00 ✨ Imported #91 (0x16e3…454e)    
+2021-10-27 16:09:00 👶 New epoch 9 launching at block 0xfcf5…9fd0 (block slot 272554290 >= start slot 272554290).    
+2021-10-27 16:09:00 👶 Next epoch starts at slot 272554300    
+2021-10-27 16:09:00 ✨ Imported #91 (0xfcf5…9fd0)    
+2021-10-27 16:09:04 💤 Idle (4 peers), best: #91 (0x16e3…454e), finalized #88 (0x3054…4f90), ⬇ 4.2kiB/s ⬆ 4.1kiB/s    
+2021-10-27 16:09:04 🥩 Round #89 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xd9bbb8c192c5590c58883b7ea9e1aa0a5b2e9e87b9f975546dfbd9c0e0fa9adc, block_number: 89, validator_set_id: 0 }, signatures: [Some(Signature(60c448119e042f7765856d5df00932462eabe49adcf7fcce85bfd7320f895bf11226066cce645425fd35a5f1d859451e460d689916c1eb9f365dd9cf76743c4c00)), Some(Signature(b3420e9bb82ba5dbf715a2b803bf862c61d1f216aca25d1a0fa47f3628e4e9945deebcafaff825fdca4d023b640401adff46f26751aedc5aa09d13de6da1162500)), Some(Signature(1ebb45f1d9d616304c65a388dd1e1719b539efeb8a6ed4d29ccfd71045dac92819ad61de1fef70a62771224e8e79270d5274215a83a9a76ddf4cf1297e2abbf501))] }.    
+2021-10-27 16:09:06 🙌 Starting consensus session on top of parent 0x16e3983f22c24bf82f4b8582b94a9408d4a3054478b2c0825388fcd146e3454e    
+2021-10-27 16:09:06 🎁 Prepared block for proposing at 92 [hash: 0x10ae31d8ab4ac5a53736b6667d5167c3548e620aaa6fee968ff5e172c3b092cc; parent_hash: 0x16e3…454e; extrinsics (2): [0x97ea…1ced, 0x328d…9f96]]    
+2021-10-27 16:09:06 🔖 Pre-sealed block for proposal at 92. Hash now 0xf34a2bc5a178e7773975089c3b909ffdac21d77e6a8c0180f0a7a0a9152d49e8, previously 0x10ae31d8ab4ac5a53736b6667d5167c3548e620aaa6fee968ff5e172c3b092cc.    
+2021-10-27 16:09:06 ✨ Imported #92 (0xf34a…49e8)    
+2021-10-27 16:09:06 Advanced session window for approvals update=Advanced { prev_window_start: 3, prev_window_end: 8, new_window_start: 4, new_window_end: 9 }
+2021-10-27 16:09:09 💤 Idle (4 peers), best: #92 (0xf34a…49e8), finalized #90 (0x3c01…c156), ⬇ 1.8kiB/s ⬆ 3.6kiB/s    
+2021-10-27 16:09:12 ✨ Imported #93 (0x6d7d…bf81)    
+2021-10-27 16:09:14 💤 Idle (4 peers), best: #93 (0x6d7d…bf81), finalized #90 (0x3c01…c156), ⬇ 4.9kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:09:16 👴 Applying authority set change scheduled at block #91    
+2021-10-27 16:09:16 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:09:18 🙌 Starting consensus session on top of parent 0x6d7d8b7d16b1bd0a01a3a8500c7679d492733b17b1a2621a2005125db305bf81    
+2021-10-27 16:09:18 🎁 Prepared block for proposing at 94 [hash: 0x3232e35896f7cf7eac6ec2b39ac7d98f8754240fb961d448e5d37d3016a4c251; parent_hash: 0x6d7d…bf81; extrinsics (2): [0xbaa6…0962, 0xb8bb…1f4e]]    
+2021-10-27 16:09:18 🔖 Pre-sealed block for proposal at 94. Hash now 0x831408b31c5d7733885fb9a387f6fc8b579fdd25815ae222f09a72fbac118e79, previously 0x3232e35896f7cf7eac6ec2b39ac7d98f8754240fb961d448e5d37d3016a4c251.    
+2021-10-27 16:09:18 ✨ Imported #94 (0x8314…8e79)    
+2021-10-27 16:09:18 ✨ Imported #94 (0x8b4f…aa9f)    
+2021-10-27 16:09:19 💤 Idle (4 peers), best: #94 (0x8314…8e79), finalized #91 (0x16e3…454e), ⬇ 6.3kiB/s ⬆ 4.8kiB/s    
+2021-10-27 16:09:24 ✨ Imported #95 (0xefcb…7741)    
+2021-10-27 16:09:24 💤 Idle (4 peers), best: #95 (0xefcb…7741), finalized #92 (0xf34a…49e8), ⬇ 3.0kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:09:29 💤 Idle (4 peers), best: #95 (0xefcb…7741), finalized #93 (0x6d7d…bf81), ⬇ 1.5kiB/s ⬆ 1.5kiB/s    
+2021-10-27 16:09:30 🙌 Starting consensus session on top of parent 0xefcbed2e508c583c25205f37b4195144cd1493c1e5219a2c68ccdea6e9507741    
+2021-10-27 16:09:30 🎁 Prepared block for proposing at 96 [hash: 0x1ecd074dfbf38b1cb7a4dd8fc02ce6346131cf4161eeb6649a5b42b8e15cfd4e; parent_hash: 0xefcb…7741; extrinsics (2): [0xe4b2…0fa3, 0x4167…5ce9]]    
+2021-10-27 16:09:30 🔖 Pre-sealed block for proposal at 96. Hash now 0xfc629d33467ff555433ffd0a4497add32e41106752b4086e34522accb9d6d0b0, previously 0x1ecd074dfbf38b1cb7a4dd8fc02ce6346131cf4161eeb6649a5b42b8e15cfd4e.    
+2021-10-27 16:09:30 ✨ Imported #96 (0xfc62…d0b0)    
+2021-10-27 16:09:34 💤 Idle (4 peers), best: #96 (0xfc62…d0b0), finalized #94 (0x8314…8e79), ⬇ 1.5kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:09:36 ✨ Imported #97 (0x6325…50c5)    
+2021-10-27 16:09:39 💤 Idle (4 peers), best: #97 (0x6325…50c5), finalized #94 (0x8314…8e79), ⬇ 3.3kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:09:42 ✨ Imported #98 (0x5856…5432)    
+2021-10-27 16:09:44 💤 Idle (4 peers), best: #98 (0x5856…5432), finalized #95 (0xefcb…7741), ⬇ 3.1kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:09:48 ✨ Imported #99 (0x9fac…b829)    
+2021-10-27 16:09:49 💤 Idle (4 peers), best: #99 (0x9fac…b829), finalized #96 (0xfc62…d0b0), ⬇ 3.6kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:09:53 🥩 Round #97 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x3c5c96f9ccf5d34d878b1cc3f1e10d77b5945544a7bdf0ebe140c2e3b41b95c9, block_number: 97, validator_set_id: 0 }, signatures: [Some(Signature(783040267ebba5ac721b3caee1258cbc8b44a96b866922d8d34d924f1bb79bbd6cd412db50c2cea3fe24598764b3ca7b6c21b1b4a4c7729ef0a3589836a142d001)), Some(Signature(8b7dc3556b530dee551c91680c66734eccfe98b895bc7492d742e8aac928afb841b56ffe914f819dedd7a592dccac54a4ef99ffb0b6417cc0af470bc44e8ac8d01)), Some(Signature(6fedaaf25767627cd167597cf89024a842dda8136a8edd2b4aa5313f06ec935d280af1c63334400c8f6a0aaae87281051e7a9d25759738983e0364790f66705b01))] }.    
+2021-10-27 16:09:54 ✨ Imported #100 (0x4d03…a780)    
+2021-10-27 16:09:54 💤 Idle (4 peers), best: #100 (0x4d03…a780), finalized #97 (0x6325…50c5), ⬇ 1.9kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:09:59 💤 Idle (4 peers), best: #100 (0x4d03…a780), finalized #97 (0x6325…50c5), ⬇ 4.3kiB/s ⬆ 6.2kiB/s    
+2021-10-27 16:10:00 👶 New epoch 10 launching at block 0x009e…c079 (block slot 272554300 >= start slot 272554300).    
+2021-10-27 16:10:00 👶 Next epoch starts at slot 272554310    
+2021-10-27 16:10:00 ✨ Imported #101 (0x009e…c079)    
+2021-10-27 16:10:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:04 💤 Idle (4 peers), best: #101 (0x009e…c079), finalized #97 (0x6325…50c5), ⬇ 7.0kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:10:06 ✨ Imported #102 (0xffbd…5e59)    
+2021-10-27 16:10:06 Advanced session window for approvals update=Advanced { prev_window_start: 4, prev_window_end: 9, new_window_start: 5, new_window_end: 10 }
+2021-10-27 16:10:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:09 💤 Idle (4 peers), best: #102 (0xffbd…5e59), finalized #100 (0x4d03…a780), ⬇ 4.6kiB/s ⬆ 3.2kiB/s    
+2021-10-27 16:10:12 ✨ Imported #103 (0x2a0c…ba99)    
+2021-10-27 16:10:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:14 💤 Idle (4 peers), best: #103 (0x2a0c…ba99), finalized #100 (0x4d03…a780), ⬇ 4.4kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:10:17 👴 Applying authority set change scheduled at block #101    
+2021-10-27 16:10:17 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:10:18 ✨ Imported #104 (0xafdd…59f3)    
+2021-10-27 16:10:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:19 💤 Idle (4 peers), best: #104 (0xafdd…59f3), finalized #101 (0x009e…c079), ⬇ 2.0kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:10:24 ✨ Imported #105 (0x57d3…61e9)    
+2021-10-27 16:10:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:24 💤 Idle (4 peers), best: #105 (0x57d3…61e9), finalized #102 (0xffbd…5e59), ⬇ 5.4kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:10:29 💤 Idle (4 peers), best: #105 (0x57d3…61e9), finalized #103 (0x2a0c…ba99), ⬇ 1.8kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:10:30 🙌 Starting consensus session on top of parent 0x57d3ebc69c4e96ebeb81405144e047fad4f2c160b9bacbb57a1238b7658a61e9    
+2021-10-27 16:10:30 🎁 Prepared block for proposing at 106 [hash: 0x4f5aebcdb34c1357a89fe2976bd40f3b97901e4e602cf86092a885a6f7b15925; parent_hash: 0x57d3…61e9; extrinsics (2): [0x6096…d51b, 0x2e8e…7ed8]]    
+2021-10-27 16:10:30 🔖 Pre-sealed block for proposal at 106. Hash now 0x2dbd067d38db8023dd9177c49481a67b27a31a0026e6151929274c185f5f0d04, previously 0x4f5aebcdb34c1357a89fe2976bd40f3b97901e4e602cf86092a885a6f7b15925.    
+2021-10-27 16:10:30 ✨ Imported #106 (0x2dbd…0d04)    
+2021-10-27 16:10:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:30 ✨ Imported #106 (0xb83c…8fe3)    
+2021-10-27 16:10:34 💤 Idle (4 peers), best: #106 (0x2dbd…0d04), finalized #104 (0xafdd…59f3), ⬇ 5.2kiB/s ⬆ 4.9kiB/s    
+2021-10-27 16:10:36 ✨ Imported #107 (0x226a…ff5e)    
+2021-10-27 16:10:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:39 💤 Idle (4 peers), best: #107 (0x226a…ff5e), finalized #104 (0xafdd…59f3), ⬇ 3.1kiB/s ⬆ 3.0kiB/s    
+2021-10-27 16:10:41 🥩 Round #105 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x93e3d5b59a87c7cea255f34df5bf33c1e1b337bba8b12a73a6adac78b07fe42d, block_number: 105, validator_set_id: 0 }, signatures: [Some(Signature(d5ed75d4ae0fc9e654b1a37550d62bb7b9acd03091e22808ffcb9a25bda466ff25ac81101bd4f58d476856524486122a95ef75b7dd0ba712c08c56e92cff999001)), Some(Signature(9f7d5b634d46c4b1b4fbe194ba53ad1f585c3284177d7128e0512ffc68aba0cf4fc9671c94d41d2e420d82498fadafa7e90212afc0e155ba89a7aed6b242e8cc01)), Some(Signature(449c4b7225abb03260e49256d0955e22b4cc9d564ca9ae698bbfcf700cdd269f6b60047b86a406786e11070f68c8a6ec2e52b7484eeea3a33bb08e1f2fecb73d00))] }.    
+2021-10-27 16:10:42 🙌 Starting consensus session on top of parent 0x226ade06fe494f1eaf060521ce85a34617aee018a80678e06e8862187fefff5e    
+2021-10-27 16:10:42 🎁 Prepared block for proposing at 108 [hash: 0x78cf1df98cc7cee971a44adbd756ae9c1ec119a6d958eea3eadc922508effdc8; parent_hash: 0x226a…ff5e; extrinsics (2): [0x7639…06fd, 0xb0dd…4aaf]]    
+2021-10-27 16:10:42 🔖 Pre-sealed block for proposal at 108. Hash now 0xe08b69800fafd70c15e625e5214517bcd3b3e0b15ff10b1299d3e59829685965, previously 0x78cf1df98cc7cee971a44adbd756ae9c1ec119a6d958eea3eadc922508effdc8.    
+2021-10-27 16:10:42 ✨ Imported #108 (0xe08b…5965)    
+2021-10-27 16:10:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:44 💤 Idle (4 peers), best: #108 (0xe08b…5965), finalized #105 (0x57d3…61e9), ⬇ 2.8kiB/s ⬆ 4.4kiB/s    
+2021-10-27 16:10:48 ✨ Imported #109 (0x6b97…e545)    
+2021-10-27 16:10:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:49 💤 Idle (4 peers), best: #109 (0x6b97…e545), finalized #106 (0x2dbd…0d04), ⬇ 3.9kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:10:54 ✨ Imported #110 (0xaaae…6fe8)    
+2021-10-27 16:10:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:10:54 💤 Idle (4 peers), best: #110 (0xaaae…6fe8), finalized #107 (0x226a…ff5e), ⬇ 3.0kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:10:59 💤 Idle (4 peers), best: #110 (0xaaae…6fe8), finalized #108 (0xe08b…5965), ⬇ 2.2kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:11:00 👶 New epoch 11 launching at block 0xcc6a…2e47 (block slot 272554310 >= start slot 272554310).    
+2021-10-27 16:11:00 👶 Next epoch starts at slot 272554320    
+2021-10-27 16:11:00 ✨ Imported #111 (0xcc6a…2e47)    
+2021-10-27 16:11:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:04 💤 Idle (4 peers), best: #111 (0xcc6a…2e47), finalized #108 (0xe08b…5965), ⬇ 2.0kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:11:06 ✨ Imported #112 (0x8605…762b)    
+2021-10-27 16:11:06 Advanced session window for approvals update=Advanced { prev_window_start: 5, prev_window_end: 10, new_window_start: 6, new_window_end: 11 }
+2021-10-27 16:11:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:09 💤 Idle (4 peers), best: #112 (0x8605…762b), finalized #110 (0xaaae…6fe8), ⬇ 2.1kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:11:12 🙌 Starting consensus session on top of parent 0x860525ce025579d5c1a0f8e7f722491747835d8ac74e981269e818466e5b762b    
+2021-10-27 16:11:12 🎁 Prepared block for proposing at 113 [hash: 0xe66321456da7cff316658daa17c2fc2a3db32c62d34379bb3125e6894df735b8; parent_hash: 0x8605…762b; extrinsics (2): [0xbf88…2e34, 0x62d2…113b]]    
+2021-10-27 16:11:12 🔖 Pre-sealed block for proposal at 113. Hash now 0x6a6494d3e3ee4d1999a190b5aea5119b71a28bdee5a9beba5836ef4d20baf439, previously 0xe66321456da7cff316658daa17c2fc2a3db32c62d34379bb3125e6894df735b8.    
+2021-10-27 16:11:12 ✨ Imported #113 (0x6a64…f439)    
+2021-10-27 16:11:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:14 💤 Idle (4 peers), best: #113 (0x6a64…f439), finalized #110 (0xaaae…6fe8), ⬇ 3.3kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:11:17 👴 Applying authority set change scheduled at block #111    
+2021-10-27 16:11:17 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:11:18 ✨ Imported #114 (0xcbf8…6863)    
+2021-10-27 16:11:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:19 💤 Idle (4 peers), best: #114 (0xcbf8…6863), finalized #111 (0xcc6a…2e47), ⬇ 3.5kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:11:24 🙌 Starting consensus session on top of parent 0xcbf8bfdd8fdcf5496e8146d94640dd25f3457098df1b97d023b08c71e5816863    
+2021-10-27 16:11:24 🎁 Prepared block for proposing at 115 [hash: 0xecdfe00dfcf380476c8703b367c13c1b06864bb3e3de8bf5f65c8687a536fb1f; parent_hash: 0xcbf8…6863; extrinsics (2): [0xbf03…3b2e, 0xa969…e875]]    
+2021-10-27 16:11:24 🔖 Pre-sealed block for proposal at 115. Hash now 0x1a1568644afdacd0e0942c282237e7f9953da1311b38ea3ce08a465a482d02c0, previously 0xecdfe00dfcf380476c8703b367c13c1b06864bb3e3de8bf5f65c8687a536fb1f.    
+2021-10-27 16:11:24 ✨ Imported #115 (0x1a15…02c0)    
+2021-10-27 16:11:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:24 💤 Idle (4 peers), best: #115 (0x1a15…02c0), finalized #112 (0x8605…762b), ⬇ 2.7kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:11:29 🥩 Round #113 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x64658a9d4187e76974d0193d795112262b2a1a2585663fb135ec3438ff1ffc9d, block_number: 113, validator_set_id: 0 }, signatures: [Some(Signature(24cb04ccdfba997733947647aeb87a2d968a159ab5a139f0a914a9cb116796c728c4d6be9eb83c13a1ffd85d172341e785587489d933ced4e2e8c678d57e433b00)), Some(Signature(d38207e77bec994cfec2d9ebf27449fcf8cadb6dc1b7943cb4df9fb0e196f8357fab294d03ece3c4ba088b402ee7af52c958efe7b721253a1606b5119883062500)), Some(Signature(25054c24a18d880a31c8f16f45e973e370f4c521750455a87559b043b0a2cd083f1babd862ff05c3629bc83eef09e73cfd48ca6d257d55c1267f663b9941e07500))] }.    
+2021-10-27 16:11:29 💤 Idle (4 peers), best: #115 (0x1a15…02c0), finalized #113 (0x6a64…f439), ⬇ 2.0kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:11:30 🙌 Starting consensus session on top of parent 0x1a1568644afdacd0e0942c282237e7f9953da1311b38ea3ce08a465a482d02c0    
+2021-10-27 16:11:30 🎁 Prepared block for proposing at 116 [hash: 0x29e8a03b328dd7f04277355dd9246abed655c4a692e6d48ac6c24323b8f5577c; parent_hash: 0x1a15…02c0; extrinsics (2): [0xd0c7…df36, 0x2746…54e6]]    
+2021-10-27 16:11:30 🔖 Pre-sealed block for proposal at 116. Hash now 0xec15daaec98f61614242acb6ecf330bc12d202d5704df8f9908e4f7947b30742, previously 0x29e8a03b328dd7f04277355dd9246abed655c4a692e6d48ac6c24323b8f5577c.    
+2021-10-27 16:11:30 ✨ Imported #116 (0xec15…0742)    
+2021-10-27 16:11:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:34 💤 Idle (4 peers), best: #116 (0xec15…0742), finalized #114 (0xcbf8…6863), ⬇ 3.0kiB/s ⬆ 4.1kiB/s    
+2021-10-27 16:11:36 ✨ Imported #117 (0xd11c…31c5)    
+2021-10-27 16:11:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:39 💤 Idle (4 peers), best: #117 (0xd11c…31c5), finalized #114 (0xcbf8…6863), ⬇ 4.5kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:11:42 ✨ Imported #118 (0x67e9…4284)    
+2021-10-27 16:11:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:44 💤 Idle (4 peers), best: #118 (0x67e9…4284), finalized #115 (0x1a15…02c0), ⬇ 4.1kiB/s ⬆ 3.4kiB/s    
+2021-10-27 16:11:48 ✨ Imported #119 (0x9d98…c7b3)    
+2021-10-27 16:11:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:49 💤 Idle (4 peers), best: #119 (0x9d98…c7b3), finalized #116 (0xec15…0742), ⬇ 3.9kiB/s ⬆ 4.6kiB/s    
+2021-10-27 16:11:54 🙌 Starting consensus session on top of parent 0x9d98ad7ba95a15a034d509c14a165f8b35b1b8db86e993f07519c48d48a4c7b3    
+2021-10-27 16:11:54 🎁 Prepared block for proposing at 120 [hash: 0xf8baad02c27349bc22f433c581f5d41045b236fb9c8413756e2dcfd47c0f9095; parent_hash: 0x9d98…c7b3; extrinsics (2): [0xd4aa…da00, 0xff46…d670]]    
+2021-10-27 16:11:54 🔖 Pre-sealed block for proposal at 120. Hash now 0x473aed71a53ac8505583059c7e851514d7207a4240be9bbacf3a79cdcca88181, previously 0xf8baad02c27349bc22f433c581f5d41045b236fb9c8413756e2dcfd47c0f9095.    
+2021-10-27 16:11:54 ✨ Imported #120 (0x473a…8181)    
+2021-10-27 16:11:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:11:54 ♻️  Reorg on #120,0x473a…8181 to #120,0xd7e6…b718, common ancestor #119,0x9d98…c7b3    
+2021-10-27 16:11:54 ✨ Imported #120 (0xd7e6…b718)    
+2021-10-27 16:11:54 💤 Idle (4 peers), best: #120 (0xd7e6…b718), finalized #117 (0xd11c…31c5), ⬇ 2.3kiB/s ⬆ 3.8kiB/s    
+2021-10-27 16:11:59 💤 Idle (4 peers), best: #120 (0xd7e6…b718), finalized #118 (0x67e9…4284), ⬇ 2.3kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:12:00 👶 New epoch 12 launching at block 0x450b…784a (block slot 272554320 >= start slot 272554320).    
+2021-10-27 16:12:00 👶 Next epoch starts at slot 272554330    
+2021-10-27 16:12:00 ✨ Imported #121 (0x450b…784a)    
+2021-10-27 16:12:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:00 [index: 0] Reporting im-online at block: 121 (session: 12): Call::heartbeat(Heartbeat { block_number: 121, network_state: OpaqueNetworkState { peer_id: OpaquePeerId([152, 0, 36, 8, 1, 18, 32, 153, 159, 219, 252, 203, 48, 97, 246, 135, 231, 133, 106, 8, 211, 164, 212, 62, 118, 243, 164, 226, 18, 85, 10, 239, 175, 98, 224, 238, 133, 81, 207]), external_addresses: [OpaqueMultiaddr([112, 47, 105, 112, 52, 47, 49, 55, 50, 46, 49, 54, 46, 49, 48, 46, 49, 50, 56, 47, 116, 99, 112, 47, 51, 48, 52, 52, 52])] }, session_index: 12, authority_index: 0, validators_len: 3 }, Signature(7c7a1bb54db624ef1c333f4525ceb5cf8892eadcdfe2d0e705a1752199e3d92566ac89a9901751aecc336cfdb2cc373856c096d7c47de47564a02c737466e28b))    
+2021-10-27 16:12:04 💤 Idle (4 peers), best: #121 (0x450b…784a), finalized #118 (0x67e9…4284), ⬇ 6.1kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:12:06 🙌 Starting consensus session on top of parent 0x450b1f00e32a2448a0e0fe6db2eaa8b7bda1e68b5f2fa419b47a3a098f1f784a    
+2021-10-27 16:12:06 🎁 Prepared block for proposing at 122 [hash: 0xf2e6b61f312ceef0c86c47cc25a6efef1b433945c4e67cc03d1c4550554b4d8e; parent_hash: 0x450b…784a; extrinsics (2): [0x6420…4760, 0x242d…c043]]    
+2021-10-27 16:12:06 🔖 Pre-sealed block for proposal at 122. Hash now 0xdc11626cd1ba6cbb13d3f60aa437d07a960c885d4616bcfe3f86ad3dd6308c95, previously 0xf2e6b61f312ceef0c86c47cc25a6efef1b433945c4e67cc03d1c4550554b4d8e.    
+2021-10-27 16:12:06 ✨ Imported #122 (0xdc11…8c95)    
+2021-10-27 16:12:06 Advanced session window for approvals update=Advanced { prev_window_start: 6, prev_window_end: 11, new_window_start: 7, new_window_end: 12 }
+2021-10-27 16:12:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:09 💤 Idle (4 peers), best: #122 (0xdc11…8c95), finalized #120 (0xd7e6…b718), ⬇ 3.3kiB/s ⬆ 4.3kiB/s    
+2021-10-27 16:12:12 🙌 Starting consensus session on top of parent 0xdc11626cd1ba6cbb13d3f60aa437d07a960c885d4616bcfe3f86ad3dd6308c95    
+2021-10-27 16:12:12 🎁 Prepared block for proposing at 123 [hash: 0x32a29ff782ca14b435fc7711eaaf5967b5d985c2774a66ca30912cdf98bf959a; parent_hash: 0xdc11…8c95; extrinsics (2): [0xcdef…3f87, 0x5847…569c]]    
+2021-10-27 16:12:12 🔖 Pre-sealed block for proposal at 123. Hash now 0x40f9c112b5331d38c9f5c1a712acd42a0bcaac05e90075fe4f4a706e43bc885e, previously 0x32a29ff782ca14b435fc7711eaaf5967b5d985c2774a66ca30912cdf98bf959a.    
+2021-10-27 16:12:12 ✨ Imported #123 (0x40f9…885e)    
+2021-10-27 16:12:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:14 💤 Idle (4 peers), best: #123 (0x40f9…885e), finalized #120 (0xd7e6…b718), ⬇ 3.3kiB/s ⬆ 4.2kiB/s    
+2021-10-27 16:12:17 👴 Applying authority set change scheduled at block #121    
+2021-10-27 16:12:17 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:12:17 🥩 Round #121 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xd1eef9fdad72a185df2c7a02ba21a3f1d6e976cb5b1e87e5c7be718ff3149651, block_number: 121, validator_set_id: 0 }, signatures: [Some(Signature(1bc26cdeac9078952e5dfcdcf639112b5430e6a2d364ce594c74176ad5a4a4ed0f0b44e77cddc8d94461bba9d4cd97048ac2941876b3e88b749751482c0e9e1701)), Some(Signature(1b743b2269f82fe9e988bfe8200e54835c671a40eaff00bd1e47adc2dce234c25b46070dbaad20355471c0cd9211b98278e657d6fe727dbfd769dc0751ba3fc800)), Some(Signature(f28d3787e02a3f51e3287e339c5b6afd5e9b35f0a7493d48daedd6723b234e30662acdd9dff67fd0b286f5f48a82e5c88b9abc926136a3329d9766bf765520ea01))] }.    
+2021-10-27 16:12:18 ✨ Imported #124 (0x0dde…abcf)    
+2021-10-27 16:12:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:18 ✨ Imported #124 (0x6953…7bd6)    
+2021-10-27 16:12:19 💤 Idle (4 peers), best: #124 (0x0dde…abcf), finalized #121 (0x450b…784a), ⬇ 3.5kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:12:24 ✨ Imported #125 (0x58c7…0a96)    
+2021-10-27 16:12:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:24 💤 Idle (4 peers), best: #125 (0x58c7…0a96), finalized #122 (0xdc11…8c95), ⬇ 3.1kiB/s ⬆ 3.0kiB/s    
+2021-10-27 16:12:29 💤 Idle (4 peers), best: #125 (0x58c7…0a96), finalized #123 (0x40f9…885e), ⬇ 1.8kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:12:30 ✨ Imported #126 (0x6844…ec9c)    
+2021-10-27 16:12:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:34 💤 Idle (4 peers), best: #126 (0x6844…ec9c), finalized #124 (0x0dde…abcf), ⬇ 3.2kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:12:36 🙌 Starting consensus session on top of parent 0x68442cffd10c773a0e32cffcc9c1fc78e7abde9fbceeef92768e107bee6cec9c    
+2021-10-27 16:12:36 🎁 Prepared block for proposing at 127 [hash: 0xe8bd4bf2d96d113e979adae67696286c9cc08062b1c2b0316ba6661584b36bb7; parent_hash: 0x6844…ec9c; extrinsics (2): [0xbc96…d04b, 0x5fda…1137]]    
+2021-10-27 16:12:36 🔖 Pre-sealed block for proposal at 127. Hash now 0x1bbfee050fa189aaa61c103535b414222088487838bfd2b02e4db8bd8a4cba52, previously 0xe8bd4bf2d96d113e979adae67696286c9cc08062b1c2b0316ba6661584b36bb7.    
+2021-10-27 16:12:36 ✨ Imported #127 (0x1bbf…ba52)    
+2021-10-27 16:12:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:39 💤 Idle (4 peers), best: #127 (0x1bbf…ba52), finalized #124 (0x0dde…abcf), ⬇ 2.9kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:12:42 ✨ Imported #128 (0xb120…37d7)    
+2021-10-27 16:12:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:44 💤 Idle (4 peers), best: #128 (0xb120…37d7), finalized #125 (0x58c7…0a96), ⬇ 3.3kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:12:48 🙌 Starting consensus session on top of parent 0xb120ca65dde1b605f64e9335d12e27955e12a18dad71ec749ac5a5d6280537d7    
+2021-10-27 16:12:48 🎁 Prepared block for proposing at 129 [hash: 0x5a250530720f890ace9ef3ebe3f192ca271d47fd9587d4e72e27a81d36579ee3; parent_hash: 0xb120…37d7; extrinsics (2): [0x6fbb…2380, 0x2a24…1d71]]    
+2021-10-27 16:12:48 🔖 Pre-sealed block for proposal at 129. Hash now 0x604f8fb55707ac30589dc5168d53db0e766e68ec5d2f4ef4b57c3b126165f077, previously 0x5a250530720f890ace9ef3ebe3f192ca271d47fd9587d4e72e27a81d36579ee3.    
+2021-10-27 16:12:48 ✨ Imported #129 (0x604f…f077)    
+2021-10-27 16:12:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:49 💤 Idle (4 peers), best: #129 (0x604f…f077), finalized #126 (0x6844…ec9c), ⬇ 3.4kiB/s ⬆ 4.5kiB/s    
+2021-10-27 16:12:54 ✨ Imported #130 (0x8d28…6868)    
+2021-10-27 16:12:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:12:54 💤 Idle (4 peers), best: #130 (0x8d28…6868), finalized #127 (0x1bbf…ba52), ⬇ 3.3kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:12:59 💤 Idle (4 peers), best: #130 (0x8d28…6868), finalized #128 (0xb120…37d7), ⬇ 1.8kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:13:00 👶 New epoch 13 launching at block 0x2028…9e93 (block slot 272554330 >= start slot 272554330).    
+2021-10-27 16:13:00 👶 Next epoch starts at slot 272554340    
+2021-10-27 16:13:00 ✨ Imported #131 (0x2028…9e93)    
+2021-10-27 16:13:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:04 💤 Idle (4 peers), best: #131 (0x2028…9e93), finalized #128 (0xb120…37d7), ⬇ 2.4kiB/s ⬆ 3.2kiB/s    
+2021-10-27 16:13:05 🥩 Round #129 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x36c2aba51c9b0525737f5ad89443c39b10cc0c4488b44d85213700e28608f138, block_number: 129, validator_set_id: 0 }, signatures: [Some(Signature(2097226200d63787826719811783c0c46f40e029893e19755e2ff09210537fef58e964a2c2083d5d3f6ed11bf7241b843e94854143bb3c2af961486fcb288fe000)), Some(Signature(71758ca78b9bcb80772bb2bc91ceac8538be1ba3028208f08174531f8d6efe8942f0ac053a2dfb912453ea4bef1dc5755b718d63b7413fd8f6ddb836859dcf3b00)), Some(Signature(67739957a5521015725f15093f66038c3d59a684310cc6f1c7ec5a67eee292ee39af4dec670fda0b59308bfb0e5117b4dd442cbd289ed041d0bd95e460c0a1b001))] }.    
+2021-10-27 16:13:06 🙌 Starting consensus session on top of parent 0x2028e1fc375370effa9fcc8eeb881984c9b9085bbd1b58b6708aaa1ce8d59e93    
+2021-10-27 16:13:06 🎁 Prepared block for proposing at 132 [hash: 0x47bb3a0104a69ab576d28be21a8a7675d411b63bf0d0d1f873c78e0157a643f2; parent_hash: 0x2028…9e93; extrinsics (3): [0x010f…e866, 0xdbfd…26e9, 0x1316…b0ba]]    
+2021-10-27 16:13:06 🔖 Pre-sealed block for proposal at 132. Hash now 0xaab3b7b282caac5d4253229cd168b30c078d48ff4ee3f46071b3fe16c23b2228, previously 0x47bb3a0104a69ab576d28be21a8a7675d411b63bf0d0d1f873c78e0157a643f2.    
+2021-10-27 16:13:06 ✨ Imported #132 (0x41f2…5822)    
+2021-10-27 16:13:06 ✨ Imported #132 (0xaab3…2228)    
+2021-10-27 16:13:06 Advanced session window for approvals update=Advanced { prev_window_start: 7, prev_window_end: 12, new_window_start: 8, new_window_end: 13 }
+2021-10-27 16:13:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:09 💤 Idle (4 peers), best: #132 (0x41f2…5822), finalized #130 (0x8d28…6868), ⬇ 2.6kiB/s ⬆ 4.2kiB/s    
+2021-10-27 16:13:12 🙌 Starting consensus session on top of parent 0x41f2b89af30e26310039edd5eca949f281779b97f289c0c6f8b53cdff8b85822    
+2021-10-27 16:13:12 🎁 Prepared block for proposing at 133 [hash: 0x22fccb82032aed86e5bec0c03e3e49d33653d0b7534e3d52c3b260c00ed6f38c; parent_hash: 0x41f2…5822; extrinsics (2): [0xb4e2…8f4f, 0x23a3…fe33]]    
+2021-10-27 16:13:12 🔖 Pre-sealed block for proposal at 133. Hash now 0xc0b522f0cbfce0c1cc5ed5649f9155c7b39a19a893a264bf43291a96016ba1e7, previously 0x22fccb82032aed86e5bec0c03e3e49d33653d0b7534e3d52c3b260c00ed6f38c.    
+2021-10-27 16:13:12 ✨ Imported #133 (0x7765…0e04)    
+2021-10-27 16:13:12 ✨ Imported #133 (0xc0b5…a1e7)    
+2021-10-27 16:13:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:14 💤 Idle (4 peers), best: #133 (0x7765…0e04), finalized #130 (0x8d28…6868), ⬇ 5.1kiB/s ⬆ 4.1kiB/s    
+2021-10-27 16:13:17 👴 Applying authority set change scheduled at block #131    
+2021-10-27 16:13:17 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:13:18 🙌 Starting consensus session on top of parent 0x7765f56b816fc88fb2424c7e75d59ebf33be63d26e98d950f854d840b19a0e04    
+2021-10-27 16:13:18 🎁 Prepared block for proposing at 134 [hash: 0xe6eb7f22e79d2672e0d105780cd3931c78f9464e9f351fedcfb6893712c9fcb5; parent_hash: 0x7765…0e04; extrinsics (2): [0x9ad8…6ca4, 0xb728…9baa]]    
+2021-10-27 16:13:18 🔖 Pre-sealed block for proposal at 134. Hash now 0x4daa7f661706f667164693a123a1cee394cc50ab50ae2ed0544001549bd4d481, previously 0xe6eb7f22e79d2672e0d105780cd3931c78f9464e9f351fedcfb6893712c9fcb5.    
+2021-10-27 16:13:18 ✨ Imported #134 (0x4daa…d481)    
+2021-10-27 16:13:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:19 💤 Idle (4 peers), best: #134 (0x4daa…d481), finalized #131 (0x2028…9e93), ⬇ 3.5kiB/s ⬆ 6.0kiB/s    
+2021-10-27 16:13:24 🙌 Starting consensus session on top of parent 0x4daa7f661706f667164693a123a1cee394cc50ab50ae2ed0544001549bd4d481    
+2021-10-27 16:13:24 🎁 Prepared block for proposing at 135 [hash: 0xb70a19471a1216b050ed906a8724a1f4c2c73cfe2e9fd4ff73c1598eb55473de; parent_hash: 0x4daa…d481; extrinsics (2): [0xd6ef…355c, 0xa99a…8e46]]    
+2021-10-27 16:13:24 🔖 Pre-sealed block for proposal at 135. Hash now 0x8f697277a478f404c0939749a532b3ce2adf48650956e44e7a416ad0dde05048, previously 0xb70a19471a1216b050ed906a8724a1f4c2c73cfe2e9fd4ff73c1598eb55473de.    
+2021-10-27 16:13:24 ✨ Imported #135 (0x8f69…5048)    
+2021-10-27 16:13:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:24 💤 Idle (4 peers), best: #135 (0x8f69…5048), finalized #132 (0x41f2…5822), ⬇ 3.0kiB/s ⬆ 4.3kiB/s    
+2021-10-27 16:13:29 💤 Idle (4 peers), best: #135 (0x8f69…5048), finalized #133 (0x7765…0e04), ⬇ 1.9kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:13:30 Creating inherent data providers took more time than we had left for the slot.    
+2021-10-27 16:13:30 🙌 Starting consensus session on top of parent 0x8f697277a478f404c0939749a532b3ce2adf48650956e44e7a416ad0dde05048    
+2021-10-27 16:13:30 🎁 Prepared block for proposing at 136 [hash: 0xa4b43bbf95dca45ece36c5344e7e7bb42815656cfc6e18f07dd8d4936a738cc7; parent_hash: 0x8f69…5048; extrinsics (2): [0xbe90…a25b, 0x55f1…f27a]]    
+2021-10-27 16:13:30 🔖 Pre-sealed block for proposal at 136. Hash now 0x0a9f02b0f2eacb8627abf4f0d1f1d6b18bf28a1cc8534d42722f037e28c05e5b, previously 0xa4b43bbf95dca45ece36c5344e7e7bb42815656cfc6e18f07dd8d4936a738cc7.    
+2021-10-27 16:13:30 ✨ Imported #136 (0x0a9f…5e5b)    
+2021-10-27 16:13:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:34 💤 Idle (4 peers), best: #136 (0x0a9f…5e5b), finalized #134 (0x4daa…d481), ⬇ 2.9kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:13:36 ✨ Imported #137 (0x57b1…ffbb)    
+2021-10-27 16:13:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:39 💤 Idle (4 peers), best: #137 (0x57b1…ffbb), finalized #134 (0x4daa…d481), ⬇ 4.3kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:13:42 ✨ Imported #138 (0x1694…7d9a)    
+2021-10-27 16:13:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:44 💤 Idle (4 peers), best: #138 (0x1694…7d9a), finalized #135 (0x8f69…5048), ⬇ 3.3kiB/s ⬆ 4.3kiB/s    
+2021-10-27 16:13:48 ✨ Imported #139 (0x1ae5…f46f)    
+2021-10-27 16:13:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:50 💤 Idle (4 peers), best: #139 (0x1ae5…f46f), finalized #136 (0x0a9f…5e5b), ⬇ 3.5kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:13:54 🙌 Starting consensus session on top of parent 0x1ae582c3df3b983a63274acde8011ade2678105e2a4c8763bc52fbd8024df46f    
+2021-10-27 16:13:54 🎁 Prepared block for proposing at 140 [hash: 0xbe543131c0701a3b55b95d79e58058006994d7281a920529fbe6ce78dc0a62c9; parent_hash: 0x1ae5…f46f; extrinsics (2): [0xe3af…32b8, 0xe4b8…5a22]]    
+2021-10-27 16:13:54 🔖 Pre-sealed block for proposal at 140. Hash now 0xe79138ec7023240033c54fc963c7f32dd9eca9825ffc1dd697fbd82db13241a7, previously 0xbe543131c0701a3b55b95d79e58058006994d7281a920529fbe6ce78dc0a62c9.    
+2021-10-27 16:13:54 ✨ Imported #140 (0xe791…41a7)    
+2021-10-27 16:13:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:13:55 💤 Idle (4 peers), best: #140 (0xe791…41a7), finalized #136 (0x0a9f…5e5b), ⬇ 2.5kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:13:57 🥩 Round #137 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x70dbdd47784398f41a6c2ec33d37beb046f219644190d6736c7fbdc35e442649, block_number: 137, validator_set_id: 0 }, signatures: [Some(Signature(1ad6bd4e061eb082bf05388a3042e99a1484549e7068f9511558c3c08954415763cf0b5a0aafde810ff14813200d15753a3f96e74ff4e12912df1ca3110ced5701)), Some(Signature(bd64743ae7c622834a8db562fb31805c5ca6cb04c839b211540b6c200e2d748e47c07c5f303e7d0f57bd7ecd56816dd0104e51761829600071a023affe48b3f100)), Some(Signature(65101575486cd697eda4ed5c41c0c5221f5c6020bccbc497ae336e8090e0a15b1264525969fc91930dd1e94f3042279a6c61cee3b842f13ccd5beb8601b1ad8800))] }.    
+2021-10-27 16:14:00 💤 Idle (4 peers), best: #140 (0xe791…41a7), finalized #138 (0x1694…7d9a), ⬇ 2.0kiB/s ⬆ 2.5kiB/s    
+2021-10-27 16:14:00 👶 New epoch 14 launching at block 0xb9cf…0c95 (block slot 272554340 >= start slot 272554340).    
+2021-10-27 16:14:00 👶 Next epoch starts at slot 272554350    
+2021-10-27 16:14:00 ✨ Imported #141 (0xb9cf…0c95)    
+2021-10-27 16:14:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:05 💤 Idle (4 peers), best: #141 (0xb9cf…0c95), finalized #138 (0x1694…7d9a), ⬇ 3.4kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:14:06 🙌 Starting consensus session on top of parent 0xb9cf217da00104228284b9bce5ba033f64fb99d6d419263127705a3c65700c95    
+2021-10-27 16:14:06 🎁 Prepared block for proposing at 142 [hash: 0x35ab01afa7a3a43ff7646ab3c2d647443310e909c85619220c9563f72b3dbb81; parent_hash: 0xb9cf…0c95; extrinsics (2): [0xed63…11d7, 0x3f65…b8a9]]    
+2021-10-27 16:14:06 🔖 Pre-sealed block for proposal at 142. Hash now 0x70324a0e359f2c920830ff1694943b0979516afa64853c13849ee8686759bf2e, previously 0x35ab01afa7a3a43ff7646ab3c2d647443310e909c85619220c9563f72b3dbb81.    
+2021-10-27 16:14:06 ✨ Imported #142 (0x7032…bf2e)    
+2021-10-27 16:14:06 Advanced session window for approvals update=Advanced { prev_window_start: 8, prev_window_end: 13, new_window_start: 9, new_window_end: 14 }
+2021-10-27 16:14:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:06 ✨ Imported #142 (0x7262…5c90)    
+2021-10-27 16:14:10 💤 Idle (4 peers), best: #142 (0x7032…bf2e), finalized #140 (0xe791…41a7), ⬇ 6.0kiB/s ⬆ 7.0kiB/s    
+2021-10-27 16:14:12 ✨ Imported #143 (0x8d2f…d76d)    
+2021-10-27 16:14:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:15 💤 Idle (4 peers), best: #143 (0x8d2f…d76d), finalized #140 (0xe791…41a7), ⬇ 2.2kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:14:17 👴 Applying authority set change scheduled at block #141    
+2021-10-27 16:14:17 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:14:18 🙌 Starting consensus session on top of parent 0x8d2fa538499dfb909c3955caed618bb330b62daad02e897bff456871549ad76d    
+2021-10-27 16:14:18 🎁 Prepared block for proposing at 144 [hash: 0x9ca2515e20690ea569e38b58d2e3ec7011bb83399e86306bab366c6f6fa9c0c5; parent_hash: 0x8d2f…d76d; extrinsics (2): [0xeefa…14d8, 0x15e9…df38]]    
+2021-10-27 16:14:18 🔖 Pre-sealed block for proposal at 144. Hash now 0xeec1df19b3a6e1e4353194c8381ce89d4818d57c7072a6e7311091f53e874682, previously 0x9ca2515e20690ea569e38b58d2e3ec7011bb83399e86306bab366c6f6fa9c0c5.    
+2021-10-27 16:14:18 ✨ Imported #144 (0xeec1…4682)    
+2021-10-27 16:14:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:20 💤 Idle (4 peers), best: #144 (0xeec1…4682), finalized #141 (0xb9cf…0c95), ⬇ 1.7kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:14:24 🙌 Starting consensus session on top of parent 0xeec1df19b3a6e1e4353194c8381ce89d4818d57c7072a6e7311091f53e874682    
+2021-10-27 16:14:24 🎁 Prepared block for proposing at 145 [hash: 0x115d5a3df3d75588a0706bfd05d6a1f924f0eb62939cbb37565c5a962730c661; parent_hash: 0xeec1…4682; extrinsics (2): [0x93a9…81ad, 0xa683…fc33]]    
+2021-10-27 16:14:24 🔖 Pre-sealed block for proposal at 145. Hash now 0x9c50585654d2c953db211783c5ed423c2a2675c153d82bcf6933711b031dfa8b, previously 0x115d5a3df3d75588a0706bfd05d6a1f924f0eb62939cbb37565c5a962730c661.    
+2021-10-27 16:14:24 ✨ Imported #145 (0x9c50…fa8b)    
+2021-10-27 16:14:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:25 💤 Idle (4 peers), best: #145 (0x9c50…fa8b), finalized #142 (0x7032…bf2e), ⬇ 2.8kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:14:30 ✨ Imported #146 (0xc134…1a74)    
+2021-10-27 16:14:30 💤 Idle (4 peers), best: #146 (0xc134…1a74), finalized #143 (0x8d2f…d76d), ⬇ 3.1kiB/s ⬆ 4.6kiB/s    
+2021-10-27 16:14:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:30 ✨ Imported #146 (0xc6d0…b997)    
+2021-10-27 16:14:35 💤 Idle (4 peers), best: #146 (0xc134…1a74), finalized #144 (0xeec1…4682), ⬇ 5.0kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:14:36 🙌 Starting consensus session on top of parent 0xc1349336c3e6612b711b8665bdfbb12bc0c9ba721f6cf6a481a5e0c491501a74    
+2021-10-27 16:14:36 🎁 Prepared block for proposing at 147 [hash: 0xbcba501598200122b5c796983faf6fb87f1991a6eaf56e90387cb789a3dca5ef; parent_hash: 0xc134…1a74; extrinsics (2): [0xa5a5…4088, 0x40a6…ada8]]    
+2021-10-27 16:14:36 🔖 Pre-sealed block for proposal at 147. Hash now 0xb7137e69f28f323bb2a3db55c0f80341e7c442700c4c11947966be86a7fc5f4c, previously 0xbcba501598200122b5c796983faf6fb87f1991a6eaf56e90387cb789a3dca5ef.    
+2021-10-27 16:14:36 ✨ Imported #147 (0xdcb9…8c81)    
+2021-10-27 16:14:36 ✨ Imported #147 (0xb713…5f4c)    
+2021-10-27 16:14:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:36 ✨ Imported #147 (0x0b1e…9aa8)    
+2021-10-27 16:14:40 💤 Idle (4 peers), best: #147 (0xdcb9…8c81), finalized #144 (0xeec1…4682), ⬇ 6.3kiB/s ⬆ 5.5kiB/s    
+2021-10-27 16:14:41 🥩 Round #145 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x92c15ddf8e0dd46a52bdd01c02b61af1c7475ab92f908e8e5ca2a07df9c2c863, block_number: 145, validator_set_id: 0 }, signatures: [Some(Signature(9b6b5f91890aaf09389b64cafc1ad67db6b280c2babfb333abcd7a0f6d0cbf583c7114b9ac71e83d83ce6e598521688ca11bbad98b1e9485f6e41d05fd59677101)), Some(Signature(1e33a7573389355ea035514e53ca70b77d52561089c65293db8b8a2e653b0578304e49f1cc4eecc83c92550e7426925546440c2efee470a4847f710f9170755200)), Some(Signature(5e79bec244086287d1cfc448b66f79a66009a6dc56e839b2396a69e75d0308f366ccc2a2aaeaf69344dc1199d3e12121f7e921d2ef401f368abc06f29c98b46901))] }.    
+2021-10-27 16:14:42 ✨ Imported #148 (0xef17…82e8)    
+2021-10-27 16:14:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:45 💤 Idle (4 peers), best: #148 (0xef17…82e8), finalized #145 (0x9c50…fa8b), ⬇ 3.3kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:14:48 🙌 Starting consensus session on top of parent 0xef17ae29226c772fb6751044999a5b6c1a5807fe0b4526bd802ddabd8e1c82e8    
+2021-10-27 16:14:48 🎁 Prepared block for proposing at 149 [hash: 0x8776badb7cbe9fb36ad8c99b7a7c9b741d382a2d5311e2004d21f122c6182406; parent_hash: 0xef17…82e8; extrinsics (2): [0x14c8…bc7d, 0xccd4…6c3e]]    
+2021-10-27 16:14:48 🔖 Pre-sealed block for proposal at 149. Hash now 0xe16298b3353e233929c27ae060a6778ab2e23f2cade65d14d55b2cbf15c63109, previously 0x8776badb7cbe9fb36ad8c99b7a7c9b741d382a2d5311e2004d21f122c6182406.    
+2021-10-27 16:14:48 ✨ Imported #149 (0xe162…3109)    
+2021-10-27 16:14:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:50 💤 Idle (4 peers), best: #149 (0xe162…3109), finalized #146 (0xc134…1a74), ⬇ 4.7kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:14:54 🙌 Starting consensus session on top of parent 0xe16298b3353e233929c27ae060a6778ab2e23f2cade65d14d55b2cbf15c63109    
+2021-10-27 16:14:54 🎁 Prepared block for proposing at 150 [hash: 0x304fa6c6d9b69680cb331d9d6f7303137307bdc59d31dc672d7063db1eb7dae9; parent_hash: 0xe162…3109; extrinsics (2): [0x2195…3786, 0xcbe7…3275]]    
+2021-10-27 16:14:54 🔖 Pre-sealed block for proposal at 150. Hash now 0xde91b7744bb7d92badced6a3bba354357e1a4634cb0530a6161ecafd2a483cc6, previously 0x304fa6c6d9b69680cb331d9d6f7303137307bdc59d31dc672d7063db1eb7dae9.    
+2021-10-27 16:14:54 ✨ Imported #150 (0xde91…3cc6)    
+2021-10-27 16:14:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:14:54 ✨ Imported #150 (0x1a43…5ae2)    
+2021-10-27 16:14:55 💤 Idle (4 peers), best: #150 (0xde91…3cc6), finalized #147 (0xdcb9…8c81), ⬇ 5.5kiB/s ⬆ 4.5kiB/s    
+2021-10-27 16:15:00 👶 New epoch 15 launching at block 0x8e34…61be (block slot 272554350 >= start slot 272554350).    
+2021-10-27 16:15:00 👶 Next epoch starts at slot 272554360    
+2021-10-27 16:15:00 ✨ Imported #151 (0x8e34…61be)    
+2021-10-27 16:15:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:00 [index: 0] Reporting im-online at block: 151 (session: 15): Call::heartbeat(Heartbeat { block_number: 151, network_state: OpaqueNetworkState { peer_id: OpaquePeerId([152, 0, 36, 8, 1, 18, 32, 153, 159, 219, 252, 203, 48, 97, 246, 135, 231, 133, 106, 8, 211, 164, 212, 62, 118, 243, 164, 226, 18, 85, 10, 239, 175, 98, 224, 238, 133, 81, 207]), external_addresses: [OpaqueMultiaddr([112, 47, 105, 112, 52, 47, 49, 55, 50, 46, 49, 54, 46, 49, 48, 46, 49, 50, 56, 47, 116, 99, 112, 47, 51, 48, 52, 52, 52])] }, session_index: 15, authority_index: 0, validators_len: 3 }, Signature(e8ff23b666d2f291b62f4bd383872d4a82740d8ec079c009ca995946c7d31d32b70ff0c08d71159165a750f15a43ed86dcbe84eed9685200af0e0e88b89ffb83))    
+2021-10-27 16:15:00 💤 Idle (4 peers), best: #151 (0x8e34…61be), finalized #148 (0xef17…82e8), ⬇ 7.3kiB/s ⬆ 7.7kiB/s    
+2021-10-27 16:15:05 💤 Idle (4 peers), best: #151 (0x8e34…61be), finalized #148 (0xef17…82e8), ⬇ 1.4kiB/s ⬆ 1.4kiB/s    
+2021-10-27 16:15:06 ✨ Imported #152 (0x2710…9a47)    
+2021-10-27 16:15:06 Advanced session window for approvals update=Advanced { prev_window_start: 9, prev_window_end: 14, new_window_start: 10, new_window_end: 15 }
+2021-10-27 16:15:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:10 💤 Idle (4 peers), best: #152 (0x2710…9a47), finalized #150 (0xde91…3cc6), ⬇ 3.6kiB/s ⬆ 2.5kiB/s    
+2021-10-27 16:15:12 ✨ Imported #153 (0x3dfc…007b)    
+2021-10-27 16:15:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:15 💤 Idle (4 peers), best: #153 (0x3dfc…007b), finalized #150 (0xde91…3cc6), ⬇ 4.9kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:15:17 👴 Applying authority set change scheduled at block #151    
+2021-10-27 16:15:17 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:15:18 🙌 Starting consensus session on top of parent 0x3dfc4cb0fa186ff43a623d9e84f561b0ba47669ef157d6a0bc6b3672fbd4007b    
+2021-10-27 16:15:18 🎁 Prepared block for proposing at 154 [hash: 0x72c21d0e29ab53451c14cebfd7816204155cd0fea4fd0f222bea74039986654f; parent_hash: 0x3dfc…007b; extrinsics (2): [0x6d3c…81c5, 0x59e4…5959]]    
+2021-10-27 16:15:18 🔖 Pre-sealed block for proposal at 154. Hash now 0x99047047531f43638ac5520c5a9040dbb4738c9c00814e2bc255a5cfc564d135, previously 0x72c21d0e29ab53451c14cebfd7816204155cd0fea4fd0f222bea74039986654f.    
+2021-10-27 16:15:18 ✨ Imported #154 (0x9904…d135)    
+2021-10-27 16:15:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:18 ✨ Imported #154 (0x9077…328a)    
+2021-10-27 16:15:20 💤 Idle (4 peers), best: #154 (0x9904…d135), finalized #151 (0x8e34…61be), ⬇ 6.1kiB/s ⬆ 5.3kiB/s    
+2021-10-27 16:15:24 ✨ Imported #155 (0x908d…d07d)    
+2021-10-27 16:15:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:25 💤 Idle (4 peers), best: #155 (0x908d…d07d), finalized #152 (0x2710…9a47), ⬇ 3.3kiB/s ⬆ 1.4kiB/s    
+2021-10-27 16:15:29 🥩 Round #153 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xfb1bcf195d88c0ee32a7b2847f2354d3300a4cb9009cfbbd5b70ce8e09fd41cc, block_number: 153, validator_set_id: 0 }, signatures: [Some(Signature(4e568401548c6fb3cd21d3b3d1a6ca59640d05940217aa765101571fc609178e7dbfaac8dd30ad3db3f60d329f9124630dcc0b57df7723d002c0b5de1adb4f4c01)), Some(Signature(a9320054863c459ac674485764f8614b978952149304840d97bea662d5ab557b374a5a8e962246350f2ddc44c2da39a2eaf8ecf45dccfcda83ef4d8f0233e0a800)), Some(Signature(bbc29a714b3b115f33b21f0affbae48789acc63baaf252bb463c4ed71386fa212ae24c2eb5ff9ba7bea16a1f0498e61871716953468455521fab214ba82bbcc201))] }.    
+2021-10-27 16:15:30 ✨ Imported #156 (0x1712…e26a)    
+2021-10-27 16:15:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:30 💤 Idle (4 peers), best: #156 (0x1712…e26a), finalized #153 (0x3dfc…007b), ⬇ 3.4kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:15:35 💤 Idle (4 peers), best: #156 (0x1712…e26a), finalized #154 (0x9904…d135), ⬇ 1.3kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:15:36 ✨ Imported #157 (0xe8e1…3536)    
+2021-10-27 16:15:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:40 💤 Idle (4 peers), best: #157 (0xe8e1…3536), finalized #154 (0x9904…d135), ⬇ 4.5kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:15:42 🙌 Starting consensus session on top of parent 0xe8e1b87bd438830bd03136fc9d59f188c9806cfcb1d7b3adcac7af0a8b3c3536    
+2021-10-27 16:15:42 🎁 Prepared block for proposing at 158 [hash: 0xa56b7e42f3fed8e2fed9dae1f08593a96d9764bcf31dca42f06be57fc9ce9f26; parent_hash: 0xe8e1…3536; extrinsics (2): [0x1a3c…52df, 0x6f0d…dbf3]]    
+2021-10-27 16:15:42 🔖 Pre-sealed block for proposal at 158. Hash now 0xa783429775404522ff7124e66ccd2f89b22c487de72d05f72434f10679e35f5b, previously 0xa56b7e42f3fed8e2fed9dae1f08593a96d9764bcf31dca42f06be57fc9ce9f26.    
+2021-10-27 16:15:42 ✨ Imported #158 (0xa783…5f5b)    
+2021-10-27 16:15:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:45 💤 Idle (4 peers), best: #158 (0xa783…5f5b), finalized #155 (0x908d…d07d), ⬇ 4.4kiB/s ⬆ 3.6kiB/s    
+2021-10-27 16:15:48 ✨ Imported #159 (0xbbe3…1c00)    
+2021-10-27 16:15:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:50 💤 Idle (4 peers), best: #159 (0xbbe3…1c00), finalized #156 (0x1712…e26a), ⬇ 4.0kiB/s ⬆ 4.8kiB/s    
+2021-10-27 16:15:54 ✨ Imported #160 (0x963e…26d2)    
+2021-10-27 16:15:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:15:55 💤 Idle (4 peers), best: #160 (0x963e…26d2), finalized #157 (0xe8e1…3536), ⬇ 1.5kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:16:00 👶 New epoch 16 launching at block 0x8129…853c (block slot 272554360 >= start slot 272554360).    
+2021-10-27 16:16:00 👶 Next epoch starts at slot 272554370    
+2021-10-27 16:16:00 ✨ Imported #161 (0x8129…853c)    
+2021-10-27 16:16:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:00 💤 Idle (4 peers), best: #161 (0x8129…853c), finalized #158 (0xa783…5f5b), ⬇ 4.3kiB/s ⬆ 3.0kiB/s    
+2021-10-27 16:16:05 💤 Idle (4 peers), best: #161 (0x8129…853c), finalized #159 (0xbbe3…1c00), ⬇ 2.6kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:16:06 ✨ Imported #162 (0x1f7a…d454)    
+2021-10-27 16:16:06 Advanced session window for approvals update=Advanced { prev_window_start: 10, prev_window_end: 15, new_window_start: 11, new_window_end: 16 }
+2021-10-27 16:16:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:06 [index: 0] Reporting im-online at block: 162 (session: 16): Call::heartbeat(Heartbeat { block_number: 162, network_state: OpaqueNetworkState { peer_id: OpaquePeerId([152, 0, 36, 8, 1, 18, 32, 153, 159, 219, 252, 203, 48, 97, 246, 135, 231, 133, 106, 8, 211, 164, 212, 62, 118, 243, 164, 226, 18, 85, 10, 239, 175, 98, 224, 238, 133, 81, 207]), external_addresses: [OpaqueMultiaddr([112, 47, 105, 112, 52, 47, 49, 55, 50, 46, 49, 54, 46, 49, 48, 46, 49, 50, 56, 47, 116, 99, 112, 47, 51, 48, 52, 52, 52])] }, session_index: 16, authority_index: 0, validators_len: 3 }, Signature(60acbfeb6852ec74c43550a424b3db42d1929dcbda941a59e992b4de4ed8ac09459bcaeed90c93ffb34cc8338f1a744c136177f6d1547dcc1399829d67deb38d))    
+2021-10-27 16:16:10 💤 Idle (4 peers), best: #162 (0x1f7a…d454), finalized #159 (0xbbe3…1c00), ⬇ 4.7kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:16:12 🙌 Starting consensus session on top of parent 0x1f7ad8a51baa9c29af35191aaab7a3c8fc7f6b7ac8384906941a7d5df535d454    
+2021-10-27 16:16:12 🎁 Prepared block for proposing at 163 [hash: 0x98d6d518f9358404c84d0a762bc62bf728ea6463659e633d7de6e743fc2e9279; parent_hash: 0x1f7a…d454; extrinsics (2): [0x9137…158c, 0xdbc3…a7e7]]    
+2021-10-27 16:16:12 🔖 Pre-sealed block for proposal at 163. Hash now 0x6c657ebf7cee87538b7cdf45bdad75c0ea006f3c0ed47054a587dfcdeab73dd9, previously 0x98d6d518f9358404c84d0a762bc62bf728ea6463659e633d7de6e743fc2e9279.    
+2021-10-27 16:16:12 ✨ Imported #163 (0x6c65…3dd9)    
+2021-10-27 16:16:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:14 👴 Applying authority set change scheduled at block #161    
+2021-10-27 16:16:14 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:16:14 🥩 Round #161 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xcb69642bfa74f83267e1e38a4ff87f9d6a2ae842ca6e922c602c833b60cfa682, block_number: 161, validator_set_id: 0 }, signatures: [Some(Signature(5a7eee5c19b19753fffdb882ea33a6ca1a2a43440d11ad62203a5613712f0d4c29cae1b5c8a164cfa5c1b2e4fa83f5c5407eb772553a9d4f63a5eccb9b78858501)), Some(Signature(2a80506d81641650a7d12805529c498234d9616b6847d10b21209a2ea9d001d67c4bb8c1aa17ff7a795a85a68dc8fc3388afc86f8838e52fa325f73c99e23af000)), Some(Signature(4a63dcb07f241c83c8f8af8524f34a77551d3516f6aa01c4049b7956a44735f969e9d8e278c8f0acb5eea23869c8239a0befabdc79aedc1b740bc1676e54208100))] }.    
+2021-10-27 16:16:15 💤 Idle (4 peers), best: #163 (0x6c65…3dd9), finalized #161 (0x8129…853c), ⬇ 3.1kiB/s ⬆ 6.4kiB/s    
+2021-10-27 16:16:18 ✨ Imported #164 (0x4244…15bb)    
+2021-10-27 16:16:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:20 💤 Idle (4 peers), best: #164 (0x4244…15bb), finalized #161 (0x8129…853c), ⬇ 2.2kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:16:24 🙌 Starting consensus session on top of parent 0x42448f3ff56718fa6613867dad36378fb077cb16a9cd7241a6fe18cca8be15bb    
+2021-10-27 16:16:24 🎁 Prepared block for proposing at 165 [hash: 0x54235f4abb56a7649ecf0f0db61679b72399cd9c84a5c8ec97396bc5ef186292; parent_hash: 0x4244…15bb; extrinsics (2): [0x8f40…8b98, 0x7c75…0f49]]    
+2021-10-27 16:16:24 🔖 Pre-sealed block for proposal at 165. Hash now 0x5d2288be9f7073e459ba7aea02ceda7b7d28abdf8ad387112b964e7bf8c03777, previously 0x54235f4abb56a7649ecf0f0db61679b72399cd9c84a5c8ec97396bc5ef186292.    
+2021-10-27 16:16:24 ✨ Imported #165 (0x5d22…3777)    
+2021-10-27 16:16:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:24 ✨ Imported #165 (0x3915…b6c8)    
+2021-10-27 16:16:24 ✨ Imported #165 (0x8bd4…106e)    
+2021-10-27 16:16:25 💤 Idle (4 peers), best: #165 (0x5d22…3777), finalized #162 (0x1f7a…d454), ⬇ 11.9kiB/s ⬆ 4.4kiB/s    
+2021-10-27 16:16:30 ♻️  Reorg on #165,0x5d22…3777 to #166,0x9080…4ab6, common ancestor #164,0x4244…15bb    
+2021-10-27 16:16:30 ✨ Imported #166 (0x9080…4ab6)    
+2021-10-27 16:16:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:30 💤 Idle (4 peers), best: #166 (0x9080…4ab6), finalized #163 (0x6c65…3dd9), ⬇ 3.7kiB/s ⬆ 4.4kiB/s    
+2021-10-27 16:16:35 💤 Idle (4 peers), best: #166 (0x9080…4ab6), finalized #164 (0x4244…15bb), ⬇ 2.3kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:16:36 🙌 Starting consensus session on top of parent 0x90807dd37192a2beb3a8d2eeda463d0d1002feb9b90d5a4f0f2a886ba6ee4ab6    
+2021-10-27 16:16:36 🎁 Prepared block for proposing at 167 [hash: 0xe9708b58a9ab84b18588e69482b9bfa278e04d7cd7dec8a616a859dffe5311a0; parent_hash: 0x9080…4ab6; extrinsics (2): [0xd9a7…8d72, 0x4fae…da3e]]    
+2021-10-27 16:16:36 🔖 Pre-sealed block for proposal at 167. Hash now 0x6d38ed382527d7a365a032e74f33d6afa25e5ec8fa441bacb346c5557d53379a, previously 0xe9708b58a9ab84b18588e69482b9bfa278e04d7cd7dec8a616a859dffe5311a0.    
+2021-10-27 16:16:36 ✨ Imported #167 (0x6d38…379a)    
+2021-10-27 16:16:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:40 💤 Idle (4 peers), best: #167 (0x6d38…379a), finalized #165 (0x3915…b6c8), ⬇ 3.2kiB/s ⬆ 5.7kiB/s    
+2021-10-27 16:16:42 ✨ Imported #168 (0x5ba0…4390)    
+2021-10-27 16:16:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:45 💤 Idle (4 peers), best: #168 (0x5ba0…4390), finalized #165 (0x3915…b6c8), ⬇ 3.3kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:16:48 ✨ Imported #169 (0x836c…2981)    
+2021-10-27 16:16:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:50 💤 Idle (4 peers), best: #169 (0x836c…2981), finalized #166 (0x9080…4ab6), ⬇ 3.2kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:16:54 ✨ Imported #170 (0xe67a…1cd1)    
+2021-10-27 16:16:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:16:55 💤 Idle (4 peers), best: #170 (0xe67a…1cd1), finalized #167 (0x6d38…379a), ⬇ 4.1kiB/s ⬆ 4.7kiB/s    
+2021-10-27 16:17:00 👶 New epoch 17 launching at block 0xdff6…56e9 (block slot 272554370 >= start slot 272554370).    
+2021-10-27 16:17:00 👶 Next epoch starts at slot 272554380    
+2021-10-27 16:17:00 ✨ Imported #171 (0xdff6…56e9)    
+2021-10-27 16:17:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:00 💤 Idle (4 peers), best: #171 (0xdff6…56e9), finalized #168 (0x5ba0…4390), ⬇ 3.8kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:17:05 💤 Idle (4 peers), best: #171 (0xdff6…56e9), finalized #168 (0x5ba0…4390), ⬇ 1.5kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:17:06 ✨ Imported #172 (0x6f7b…ef0b)    
+2021-10-27 16:17:06 Advanced session window for approvals update=Advanced { prev_window_start: 11, prev_window_end: 16, new_window_start: 12, new_window_end: 17 }
+2021-10-27 16:17:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:06 🥩 Round #169 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x79fbfb1547ef74dd1bef90706993b1c0000561426711b60b41c4a7ca6b877c83, block_number: 169, validator_set_id: 0 }, signatures: [Some(Signature(f2b966083e287189ee832a690711f946f045e58189a7a0d72b9ee08235b4b784051a88d2cc2e138a3f17053427cbe53746aab01957e4d654ddd594efa560e36e01)), Some(Signature(aea31876e2a0fcb77e22fa284fa3ad4fb9b9060d3beb2193c2a4e1aec75d7c6b751ea03a41ac36c281a77baf3391aad6e81ad3ae1f85055a74fd2ced9577e68e00)), Some(Signature(61ba7f3cceb0c789e1690e0c429a9a85c1eff4dfa8c5866d35ef32398dfbf8593b6271dd66f8a24a053a047460048eb00e9385a291e98ffde08feceb4b4bd6f401))] }.    
+2021-10-27 16:17:10 💤 Idle (4 peers), best: #172 (0x6f7b…ef0b), finalized #169 (0x836c…2981), ⬇ 2.5kiB/s ⬆ 2.3kiB/s    
+2021-10-27 16:17:12 🙌 Starting consensus session on top of parent 0x6f7bd867fd1ab6ecb0f313afc3453ee9b940293b38d4c39ae213540a9062ef0b    
+2021-10-27 16:17:12 🎁 Prepared block for proposing at 173 [hash: 0x23d6682bd680b71cef3ad3d447301cd353d02797d2d933cde3882eca4b63a11d; parent_hash: 0x6f7b…ef0b; extrinsics (2): [0xde1f…47bf, 0xf8b5…c1bb]]    
+2021-10-27 16:17:12 🔖 Pre-sealed block for proposal at 173. Hash now 0x0940f105903628cc136e4846c26937b01375101d994501706420b0b1eb0ff171, previously 0x23d6682bd680b71cef3ad3d447301cd353d02797d2d933cde3882eca4b63a11d.    
+2021-10-27 16:17:12 ✨ Imported #173 (0x0940…f171)    
+2021-10-27 16:17:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:12 ♻️  Reorg on #173,0x0940…f171 to #173,0x3a9f…500f, common ancestor #172,0x6f7b…ef0b    
+2021-10-27 16:17:12 ✨ Imported #173 (0x3a9f…500f)    
+2021-10-27 16:17:14 👴 Applying authority set change scheduled at block #171    
+2021-10-27 16:17:14 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:17:15 💤 Idle (4 peers), best: #173 (0x3a9f…500f), finalized #171 (0xdff6…56e9), ⬇ 6.2kiB/s ⬆ 4.1kiB/s    
+2021-10-27 16:17:18 🙌 Starting consensus session on top of parent 0x3a9f16449173c435cb8decdcc891f4d4a1d3a553dc9fc9c285e4942e9aae500f    
+2021-10-27 16:17:18 🎁 Prepared block for proposing at 174 [hash: 0x79ebf7721d2d7f12e02eedacf0b0fec2f94b4933524c276511d93d5e30b29c72; parent_hash: 0x3a9f…500f; extrinsics (2): [0x4ae5…7985, 0x89a3…6724]]    
+2021-10-27 16:17:18 🔖 Pre-sealed block for proposal at 174. Hash now 0xab403e2d537d2cd1a3f5e8d9d9012e8ce01b4bd766995e1e035ff939dce2bbd4, previously 0x79ebf7721d2d7f12e02eedacf0b0fec2f94b4933524c276511d93d5e30b29c72.    
+2021-10-27 16:17:18 ✨ Imported #174 (0xab40…bbd4)    
+2021-10-27 16:17:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:20 💤 Idle (4 peers), best: #174 (0xab40…bbd4), finalized #171 (0xdff6…56e9), ⬇ 2.7kiB/s ⬆ 3.8kiB/s    
+2021-10-27 16:17:24 🙌 Starting consensus session on top of parent 0xab403e2d537d2cd1a3f5e8d9d9012e8ce01b4bd766995e1e035ff939dce2bbd4    
+2021-10-27 16:17:24 🎁 Prepared block for proposing at 175 [hash: 0x5e7a9eaa259898ddfc3774cdf5d0a360550a746c31bfe9b0e917952f56d998e8; parent_hash: 0xab40…bbd4; extrinsics (2): [0xa7db…1aef, 0x1425…0845]]    
+2021-10-27 16:17:24 🔖 Pre-sealed block for proposal at 175. Hash now 0x57fb1fae2ce5ed8b4f61fa70ab78adae319f854462500351e00ed128de68cecb, previously 0x5e7a9eaa259898ddfc3774cdf5d0a360550a746c31bfe9b0e917952f56d998e8.    
+2021-10-27 16:17:24 ✨ Imported #175 (0x57fb…cecb)    
+2021-10-27 16:17:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:25 💤 Idle (4 peers), best: #175 (0x57fb…cecb), finalized #172 (0x6f7b…ef0b), ⬇ 4.6kiB/s ⬆ 6.4kiB/s    
+2021-10-27 16:17:30 ✨ Imported #176 (0x3082…b14e)    
+2021-10-27 16:17:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:30 💤 Idle (4 peers), best: #176 (0x3082…b14e), finalized #173 (0x3a9f…500f), ⬇ 1.8kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:17:35 💤 Idle (4 peers), best: #176 (0x3082…b14e), finalized #173 (0x3a9f…500f), ⬇ 1.4kiB/s ⬆ 1.4kiB/s    
+2021-10-27 16:17:36 🙌 Starting consensus session on top of parent 0x3082933cd27e090290df5006aab83e045f5a00a758ee251a9e341d32122cb14e    
+2021-10-27 16:17:36 🎁 Prepared block for proposing at 177 [hash: 0x556f7e5b88736564e95e6ff4c1126000ec9c64fa48183a0f7baee0e54d2148ea; parent_hash: 0x3082…b14e; extrinsics (2): [0xdb1b…7e5b, 0x0a0f…5eb1]]    
+2021-10-27 16:17:36 🔖 Pre-sealed block for proposal at 177. Hash now 0x33c98b2181ae0f98aa905865e8520a7af64dd529c8d5f380945993bb921a037f, previously 0x556f7e5b88736564e95e6ff4c1126000ec9c64fa48183a0f7baee0e54d2148ea.    
+2021-10-27 16:17:36 ✨ Imported #177 (0x33c9…037f)    
+2021-10-27 16:17:36 ♻️  Reorg on #177,0x33c9…037f to #177,0xb029…7b2e, common ancestor #176,0x3082…b14e    
+2021-10-27 16:17:36 ✨ Imported #177 (0xb029…7b2e)    
+2021-10-27 16:17:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:40 💤 Idle (4 peers), best: #177 (0xb029…7b2e), finalized #173 (0x3a9f…500f), ⬇ 4.5kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:17:42 ✨ Imported #178 (0x00f4…6d6e)    
+2021-10-27 16:17:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:45 💤 Idle (4 peers), best: #178 (0x00f4…6d6e), finalized #175 (0x57fb…cecb), ⬇ 4.4kiB/s ⬆ 4.9kiB/s    
+2021-10-27 16:17:48 🙌 Starting consensus session on top of parent 0x00f41a586c0661386ac7acc015b600e76eb3d8866722c4446089478cb59c6d6e    
+2021-10-27 16:17:48 🎁 Prepared block for proposing at 179 [hash: 0x33b82d3f44001aa186fb7193e1c5ff1c180d3d05244ecab11c7b4a6512cf91b0; parent_hash: 0x00f4…6d6e; extrinsics (2): [0xb26b…fd93, 0xcc9a…637f]]    
+2021-10-27 16:17:48 🔖 Pre-sealed block for proposal at 179. Hash now 0xd9f1fdec8a907625ef11bf48b29cc7e3865f55531617c933f9d9f566fe5f3949, previously 0x33b82d3f44001aa186fb7193e1c5ff1c180d3d05244ecab11c7b4a6512cf91b0.    
+2021-10-27 16:17:48 ✨ Imported #179 (0xd9f1…3949)    
+2021-10-27 16:17:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:48 ♻️  Reorg on #179,0xd9f1…3949 to #179,0xe966…c175, common ancestor #178,0x00f4…6d6e    
+2021-10-27 16:17:48 ✨ Imported #179 (0xe966…c175)    
+2021-10-27 16:17:50 💤 Idle (4 peers), best: #179 (0xe966…c175), finalized #176 (0x3082…b14e), ⬇ 4.1kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:17:54 ✨ Imported #180 (0xe905…af87)    
+2021-10-27 16:17:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:17:54 🥩 Round #177 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x9d5e3acd70185037f968c2f9fd7970576449ad51a38ab1de90eae4173e0df38d, block_number: 177, validator_set_id: 0 }, signatures: [Some(Signature(5a897ac57520a3805f865c5958ecbd359429fab928566be8a716811c78ec7f3c2cca7f8ee0c8faf532ae78b088eb7ace7d6eddb810ad94ef0b373eb67c5bc1af01)), Some(Signature(7747c9ee0cfb82bf2eef09484c15a32e597695816d5f35a6149b222bb678c336000df3f916bb3f7f8484f598606434338d8e63f4871116d6bf4a9ba653ef5bff01)), Some(Signature(65725f22519ad36edcc5f8b2ad0e02f462e9d09e0a711ae09734802d289a5dd62a98fd77dc4b23e7c2667c45b940019548f0cc3f5a2617c81c821e46e04f23db00))] }.    
+2021-10-27 16:17:55 💤 Idle (4 peers), best: #180 (0xe905…af87), finalized #177 (0xb029…7b2e), ⬇ 2.2kiB/s ⬆ 2.5kiB/s    
+2021-10-27 16:18:00 🙌 Starting consensus session on top of parent 0xe905c6c9b142772ad1c1d0e10b1b866f8c7e4c2f3064f60da69ad1579a6aaf87    
+2021-10-27 16:18:00 🎁 Prepared block for proposing at 181 [hash: 0x10e7a96f00bf74e49709668a7374d61cdb36164cccb6ebff78055c2c6ac5c5d6; parent_hash: 0xe905…af87; extrinsics (2): [0xadfc…fc7c, 0xd45d…d39c]]    
+2021-10-27 16:18:00 🔖 Pre-sealed block for proposal at 181. Hash now 0x6354e2db61799898449ac96ec771a3fb4b751da8628eb9b250cde619d172925a, previously 0x10e7a96f00bf74e49709668a7374d61cdb36164cccb6ebff78055c2c6ac5c5d6.    
+2021-10-27 16:18:00 👶 New epoch 18 launching at block 0x6354…925a (block slot 272554380 >= start slot 272554380).    
+2021-10-27 16:18:00 👶 Next epoch starts at slot 272554390    
+2021-10-27 16:18:00 ✨ Imported #181 (0x6354…925a)    
+2021-10-27 16:18:00 👶 New epoch 18 launching at block 0xae09…11df (block slot 272554380 >= start slot 272554380).    
+2021-10-27 16:18:00 👶 Next epoch starts at slot 272554390    
+2021-10-27 16:18:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:00 ♻️  Reorg on #181,0x6354…925a to #181,0xae09…11df, common ancestor #180,0xe905…af87    
+2021-10-27 16:18:00 ✨ Imported #181 (0xae09…11df)    
+2021-10-27 16:18:00 💤 Idle (4 peers), best: #181 (0xae09…11df), finalized #178 (0x00f4…6d6e), ⬇ 6.4kiB/s ⬆ 5.1kiB/s    
+2021-10-27 16:18:05 💤 Idle (4 peers), best: #181 (0xae09…11df), finalized #179 (0xe966…c175), ⬇ 3.1kiB/s ⬆ 2.7kiB/s    
+2021-10-27 16:18:06 🙌 Starting consensus session on top of parent 0xae09d0cf22fe1041cbf707f86c8426487f052fdb39513a3ac237b27fc82011df    
+2021-10-27 16:18:06 🎁 Prepared block for proposing at 182 [hash: 0x5d247fcc07231103cef9e3d7b21d31f7030975d47fc93d4ab6bf220c5cc0a51d; parent_hash: 0xae09…11df; extrinsics (2): [0xa1d3…8473, 0x00b8…7ca5]]    
+2021-10-27 16:18:06 🔖 Pre-sealed block for proposal at 182. Hash now 0x054524ca7683fe074cacd9991f4ef8ca8073f57b3e9af7495249b8e9c636e93d, previously 0x5d247fcc07231103cef9e3d7b21d31f7030975d47fc93d4ab6bf220c5cc0a51d.    
+2021-10-27 16:18:06 ✨ Imported #182 (0x0545…e93d)    
+2021-10-27 16:18:06 Advanced session window for approvals update=Advanced { prev_window_start: 12, prev_window_end: 17, new_window_start: 13, new_window_end: 18 }
+2021-10-27 16:18:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:06 ✨ Imported #182 (0x36ed…0243)    
+2021-10-27 16:18:10 💤 Idle (4 peers), best: #182 (0x0545…e93d), finalized #179 (0xe966…c175), ⬇ 5.9kiB/s ⬆ 5.5kiB/s    
+2021-10-27 16:18:12 🙌 Starting consensus session on top of parent 0x054524ca7683fe074cacd9991f4ef8ca8073f57b3e9af7495249b8e9c636e93d    
+2021-10-27 16:18:12 🎁 Prepared block for proposing at 183 [hash: 0xf653424d9aadbd2230d9f38e75a4ceb68eefb2bb2ab564e64249450a7bf18921; parent_hash: 0x0545…e93d; extrinsics (2): [0x86dd…a642, 0x98cb…9f53]]    
+2021-10-27 16:18:12 🔖 Pre-sealed block for proposal at 183. Hash now 0x01dd66d118dc504562c38dcd0d2c23a02008c601900a4c3877799706cf797793, previously 0xf653424d9aadbd2230d9f38e75a4ceb68eefb2bb2ab564e64249450a7bf18921.    
+2021-10-27 16:18:12 ✨ Imported #183 (0x01dd…7793)    
+2021-10-27 16:18:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:14 👴 Applying authority set change scheduled at block #181    
+2021-10-27 16:18:14 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:18:15 💤 Idle (4 peers), best: #183 (0x01dd…7793), finalized #181 (0xae09…11df), ⬇ 3.7kiB/s ⬆ 4.9kiB/s    
+2021-10-27 16:18:18 🙌 Starting consensus session on top of parent 0x01dd66d118dc504562c38dcd0d2c23a02008c601900a4c3877799706cf797793    
+2021-10-27 16:18:18 🎁 Prepared block for proposing at 184 [hash: 0xde6a5fb1301b0de99ec3f5d34a9ccb3c21c25444139679291661bc97178074e5; parent_hash: 0x01dd…7793; extrinsics (2): [0x76e0…1a20, 0xd6e9…3953]]    
+2021-10-27 16:18:18 🔖 Pre-sealed block for proposal at 184. Hash now 0xe896b9a8e7b57ebe843aa7e86ce912cd5282ad7f99c50a8ca3f88541a38bf8bf, previously 0xde6a5fb1301b0de99ec3f5d34a9ccb3c21c25444139679291661bc97178074e5.    
+2021-10-27 16:18:18 ✨ Imported #184 (0xe896…f8bf)    
+2021-10-27 16:18:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:18 ✨ Imported #184 (0x1e9f…872c)    
+2021-10-27 16:18:20 💤 Idle (4 peers), best: #184 (0xe896…f8bf), finalized #181 (0xae09…11df), ⬇ 4.1kiB/s ⬆ 4.6kiB/s    
+2021-10-27 16:18:24 🙌 Starting consensus session on top of parent 0xe896b9a8e7b57ebe843aa7e86ce912cd5282ad7f99c50a8ca3f88541a38bf8bf    
+2021-10-27 16:18:24 🎁 Prepared block for proposing at 185 [hash: 0xc25c13a45c9513fecb616d1aeca16d38218fc43dd141f214f9b8589bff85d99f; parent_hash: 0xe896…f8bf; extrinsics (2): [0xf9fb…4db8, 0x46e3…cd89]]    
+2021-10-27 16:18:24 🔖 Pre-sealed block for proposal at 185. Hash now 0x70836756efa084e407b123b3f21bdb865bc829671e4702004ebe0672ea642345, previously 0xc25c13a45c9513fecb616d1aeca16d38218fc43dd141f214f9b8589bff85d99f.    
+2021-10-27 16:18:24 ✨ Imported #185 (0x7083…2345)    
+2021-10-27 16:18:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:25 💤 Idle (4 peers), best: #185 (0x7083…2345), finalized #182 (0x0545…e93d), ⬇ 4.7kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:18:30 ✨ Imported #186 (0x5f22…8765)    
+2021-10-27 16:18:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:30 ✨ Imported #186 (0x87a4…25c8)    
+2021-10-27 16:18:30 💤 Idle (4 peers), best: #186 (0x5f22…8765), finalized #183 (0x01dd…7793), ⬇ 4.3kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:18:35 💤 Idle (4 peers), best: #186 (0x5f22…8765), finalized #184 (0xe896…f8bf), ⬇ 2.0kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:18:36 ✨ Imported #187 (0x4b16…6694)    
+2021-10-27 16:18:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:40 💤 Idle (4 peers), best: #187 (0x4b16…6694), finalized #184 (0xe896…f8bf), ⬇ 3.1kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:18:42 🙌 Starting consensus session on top of parent 0x4b167a50fcdae44d9de3872feb2c07db678e40247a8974440e839938769b6694    
+2021-10-27 16:18:42 🎁 Prepared block for proposing at 188 [hash: 0x3eeb52cee190272924dca2ad58c7044a4b218c7bfea32cd7968f574c52394f6e; parent_hash: 0x4b16…6694; extrinsics (2): [0x18ba…9bd7, 0xe035…5030]]    
+2021-10-27 16:18:42 🔖 Pre-sealed block for proposal at 188. Hash now 0x4876ba61d1c812af0ad069486a8428490a066df3cc70cd8f9df3abb123545156, previously 0x3eeb52cee190272924dca2ad58c7044a4b218c7bfea32cd7968f574c52394f6e.    
+2021-10-27 16:18:42 ✨ Imported #188 (0x4876…5156)    
+2021-10-27 16:18:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:42 🥩 Round #185 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xf1f8f72f2862c14d22bb2ca437d2a43f90725f5b09431dbcc4186f1bf08e6ce8, block_number: 185, validator_set_id: 0 }, signatures: [Some(Signature(02e2886ee87508e66838668bedc718dad5ecf787e3d88976a7715c71677d25a01b6130e272216bffc5ad5e85101910d361dd9d033fafb83856f11c7dbcb5208201)), Some(Signature(99941b96d389234f621ce9a703be98064f073200db0d6196c6afc3340a3cf2444777d0f9addb1ddbe9497c631a773e7b0a877875e915512fa2cd3ef59827cc8c01)), Some(Signature(a164c866bdef1306b05091410bce5159fc961b02025b871b95423c2b8cfb22740cacb5a5246e03764c00960be7df5028e38ba5803559daab166b665ce7c6c72200))] }.    
+2021-10-27 16:18:45 💤 Idle (4 peers), best: #188 (0x4876…5156), finalized #185 (0x7083…2345), ⬇ 2.3kiB/s ⬆ 3.4kiB/s    
+2021-10-27 16:18:48 ✨ Imported #189 (0xa6cc…ec56)    
+2021-10-27 16:18:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:50 💤 Idle (4 peers), best: #189 (0xa6cc…ec56), finalized #186 (0x5f22…8765), ⬇ 6.0kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:18:54 🙌 Starting consensus session on top of parent 0xa6ccdbefa0350f0ba1680918d3ca7a9bb68b8d7d42bd3deb5ed467a6f257ec56    
+2021-10-27 16:18:54 🎁 Prepared block for proposing at 190 [hash: 0x1228d5f07bb5f711beaf027cb391cca2dc869e111e3708cbc2e58b7a108ca743; parent_hash: 0xa6cc…ec56; extrinsics (2): [0x7e96…7f3b, 0x7f11…8754]]    
+2021-10-27 16:18:54 🔖 Pre-sealed block for proposal at 190. Hash now 0x218df1ef35e02149b93205bda900f92a96762e507124557226d379f408a9a007, previously 0x1228d5f07bb5f711beaf027cb391cca2dc869e111e3708cbc2e58b7a108ca743.    
+2021-10-27 16:18:54 ✨ Imported #190 (0x218d…a007)    
+2021-10-27 16:18:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:18:55 💤 Idle (4 peers), best: #190 (0x218d…a007), finalized #187 (0x4b16…6694), ⬇ 3.3kiB/s ⬆ 5.1kiB/s    
+2021-10-27 16:19:00 🙌 Starting consensus session on top of parent 0x218df1ef35e02149b93205bda900f92a96762e507124557226d379f408a9a007    
+2021-10-27 16:19:00 🎁 Prepared block for proposing at 191 [hash: 0x1ac4f29dc32471deace2423e9a80eda2764edd79c644a5424cfd8cb28e99d739; parent_hash: 0x218d…a007; extrinsics (2): [0x4cc1…6597, 0xe40c…087d]]    
+2021-10-27 16:19:00 🔖 Pre-sealed block for proposal at 191. Hash now 0x2c00cd034b86ade7f463dede2dc9c1567992f540b26d72360f1be042778c97ac, previously 0x1ac4f29dc32471deace2423e9a80eda2764edd79c644a5424cfd8cb28e99d739.    
+2021-10-27 16:19:00 👶 New epoch 19 launching at block 0x2c00…97ac (block slot 272554390 >= start slot 272554390).    
+2021-10-27 16:19:00 👶 Next epoch starts at slot 272554400    
+2021-10-27 16:19:00 ✨ Imported #191 (0x2c00…97ac)    
+2021-10-27 16:19:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:00 💤 Idle (4 peers), best: #191 (0x2c00…97ac), finalized #188 (0x4876…5156), ⬇ 3.9kiB/s ⬆ 6.4kiB/s    
+2021-10-27 16:19:05 💤 Idle (4 peers), best: #191 (0x2c00…97ac), finalized #189 (0xa6cc…ec56), ⬇ 1.4kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:19:06 ✨ Imported #192 (0xe012…4f46)    
+2021-10-27 16:19:06 Advanced session window for approvals update=Advanced { prev_window_start: 13, prev_window_end: 18, new_window_start: 14, new_window_end: 19 }
+2021-10-27 16:19:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:06 ✨ Imported #192 (0xb01e…459e)    
+2021-10-27 16:19:10 💤 Idle (4 peers), best: #192 (0xe012…4f46), finalized #189 (0xa6cc…ec56), ⬇ 2.7kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:19:12 🙌 Starting consensus session on top of parent 0xe012b9d4e6065190c14795cd08f8f153b9130160fb244d9d925c9ce10d574f46    
+2021-10-27 16:19:12 🎁 Prepared block for proposing at 193 [hash: 0x67cffbc7e19f5cb9e5e967b5243299d9f5269226fbd626a2cd935a7753c00cbd; parent_hash: 0xe012…4f46; extrinsics (2): [0x36e0…457a, 0xa2e0…9882]]    
+2021-10-27 16:19:12 🔖 Pre-sealed block for proposal at 193. Hash now 0x9ff79f4e0ce236ba35d8e0b6c6fd60e35f1bb68ae66ed2c0b2bc00b6b979db0c, previously 0x67cffbc7e19f5cb9e5e967b5243299d9f5269226fbd626a2cd935a7753c00cbd.    
+2021-10-27 16:19:12 ✨ Imported #193 (0x9ff7…db0c)    
+2021-10-27 16:19:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:12 ♻️  Reorg on #193,0x9ff7…db0c to #193,0x8de8…beb8, common ancestor #192,0xe012…4f46    
+2021-10-27 16:19:12 ✨ Imported #193 (0x8de8…beb8)    
+2021-10-27 16:19:14 👴 Applying authority set change scheduled at block #191    
+2021-10-27 16:19:14 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:19:15 💤 Idle (4 peers), best: #193 (0x8de8…beb8), finalized #191 (0x2c00…97ac), ⬇ 5.6kiB/s ⬆ 4.4kiB/s    
+2021-10-27 16:19:18 ✨ Imported #194 (0xc181…95a4)    
+2021-10-27 16:19:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:20 💤 Idle (4 peers), best: #194 (0xc181…95a4), finalized #191 (0x2c00…97ac), ⬇ 3.7kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:19:24 🙌 Starting consensus session on top of parent 0xc18116bc36ea03060f2717b56665c8038e4c3658eaea4cdb314e5e292d7095a4    
+2021-10-27 16:19:24 🎁 Prepared block for proposing at 195 [hash: 0x62cfea6837a4424b4d5edad9be0a8bee7d090af5c4d619096e0cee643db6f612; parent_hash: 0xc181…95a4; extrinsics (2): [0x19a7…4014, 0x7f45…42bd]]    
+2021-10-27 16:19:24 🔖 Pre-sealed block for proposal at 195. Hash now 0xfbdaba41f86b787aa89d69a0bc44211c601b8763e7fc309ca0d339bb31fff115, previously 0x62cfea6837a4424b4d5edad9be0a8bee7d090af5c4d619096e0cee643db6f612.    
+2021-10-27 16:19:24 ✨ Imported #195 (0xfbda…f115)    
+2021-10-27 16:19:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:25 💤 Idle (4 peers), best: #195 (0xfbda…f115), finalized #192 (0xe012…4f46), ⬇ 3.2kiB/s ⬆ 3.3kiB/s    
+2021-10-27 16:19:26 🥩 Round #193 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x8615b00693b3761d6236751c5f897fa191984d7b47a9b843a15e526bfa86f930, block_number: 193, validator_set_id: 0 }, signatures: [Some(Signature(289a0abe71fb65b8a4e6e186b8bc349161d0cd7f98ea64bc07e44b55464a6fda1176920bbc0a59c6d5d39498f2f7ba0e0e4c9798032ca849ec08e489b940ab0f01)), Some(Signature(bf7a63be107078f21f7e1dccbc2d7fce5104298f2534b928a3541dfe2b6a4ad34c28341bd99a8bc84860a4059887b004eb97ff28983a3f11e7c169db89ffec7d01)), Some(Signature(cf4a073d8af6f31fab4aad8b1e7a9e59e7a212430d5e09552e018dd3f6ecb7713a82e5e3b175c45f68b3361fb5fd7f5ce4f15ac61d9843ef88e78142a9b36f4900))] }.    
+2021-10-27 16:19:30 ✨ Imported #196 (0xb2bd…1c74)    
+2021-10-27 16:19:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:30 💤 Idle (4 peers), best: #196 (0xb2bd…1c74), finalized #193 (0x8de8…beb8), ⬇ 3.5kiB/s ⬆ 3.6kiB/s    
+2021-10-27 16:19:35 💤 Idle (4 peers), best: #196 (0xb2bd…1c74), finalized #194 (0xc181…95a4), ⬇ 1.6kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:19:36 🙌 Starting consensus session on top of parent 0xb2bda1d51f847d9825bed847e43f809ae44128e69cefbda516ad1a71d9181c74    
+2021-10-27 16:19:36 🎁 Prepared block for proposing at 197 [hash: 0x5e1954806a275be6685e7634a836c75adfee5b7884b0447d98e77a90cd8b7ad0; parent_hash: 0xb2bd…1c74; extrinsics (2): [0xf227…d12c, 0xf04c…736f]]    
+2021-10-27 16:19:36 🔖 Pre-sealed block for proposal at 197. Hash now 0x7550d0325a713d87813ebeb3b75285cb3b7a3ce6e1e07fb984880e51bbeff18c, previously 0x5e1954806a275be6685e7634a836c75adfee5b7884b0447d98e77a90cd8b7ad0.    
+2021-10-27 16:19:36 ✨ Imported #197 (0x7550…f18c)    
+2021-10-27 16:19:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:40 💤 Idle (4 peers), best: #197 (0x7550…f18c), finalized #195 (0xfbda…f115), ⬇ 4.8kiB/s ⬆ 3.0kiB/s    
+2021-10-27 16:19:42 ✨ Imported #198 (0x6aad…5a66)    
+2021-10-27 16:19:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:45 💤 Idle (4 peers), best: #198 (0x6aad…5a66), finalized #195 (0xfbda…f115), ⬇ 6.2kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:19:48 🙌 Starting consensus session on top of parent 0x6aaddeae887a25205b6b3f96bc9b5276e5d07bde97de2948aaebba8bcecf5a66    
+2021-10-27 16:19:48 🎁 Prepared block for proposing at 199 [hash: 0x35f5f2fb48450d72f3863b92d61c5691069e66fd16daa25c74ce3534508e8c99; parent_hash: 0x6aad…5a66; extrinsics (2): [0xf11b…6399, 0xb366…7425]]    
+2021-10-27 16:19:48 🔖 Pre-sealed block for proposal at 199. Hash now 0xdf7a6ce7c889c716cf7faed581073bb72e6de734972ad8682476eff984a7cfc1, previously 0x35f5f2fb48450d72f3863b92d61c5691069e66fd16daa25c74ce3534508e8c99.    
+2021-10-27 16:19:48 ✨ Imported #199 (0xdf7a…cfc1)    
+2021-10-27 16:19:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:48 ✨ Imported #199 (0xcb4d…d775)    
+2021-10-27 16:19:50 💤 Idle (4 peers), best: #199 (0xdf7a…cfc1), finalized #196 (0xb2bd…1c74), ⬇ 3.5kiB/s ⬆ 5.0kiB/s    
+2021-10-27 16:19:54 ✨ Imported #200 (0x5440…a969)    
+2021-10-27 16:19:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:19:55 💤 Idle (4 peers), best: #200 (0x5440…a969), finalized #196 (0xb2bd…1c74), ⬇ 2.1kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:20:00 👶 New epoch 20 launching at block 0x1bd3…11b2 (block slot 272554400 >= start slot 272554400).    
+2021-10-27 16:20:00 👶 Next epoch starts at slot 272554410    
+2021-10-27 16:20:00 ✨ Imported #201 (0x1bd3…11b2)    
+2021-10-27 16:20:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:00 💤 Idle (4 peers), best: #201 (0x1bd3…11b2), finalized #196 (0xb2bd…1c74), ⬇ 4.6kiB/s ⬆ 7.1kiB/s    
+2021-10-27 16:20:05 💤 Idle (4 peers), best: #201 (0x1bd3…11b2), finalized #199 (0xdf7a…cfc1), ⬇ 2.2kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:20:06 ✨ Imported #202 (0xf144…aef4)    
+2021-10-27 16:20:06 Advanced session window for approvals update=Advanced { prev_window_start: 14, prev_window_end: 19, new_window_start: 15, new_window_end: 20 }
+2021-10-27 16:20:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:10 💤 Idle (4 peers), best: #202 (0xf144…aef4), finalized #199 (0xdf7a…cfc1), ⬇ 4.3kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:20:12 🙌 Starting consensus session on top of parent 0xf144f9a92d12b695c4d7241cec7a02da396debe48160aaab2c268cba6b42aef4    
+2021-10-27 16:20:12 🎁 Prepared block for proposing at 203 [hash: 0x502b3dd6bce78edb5f8e41ad4a5fa98dad5db5e1972138be3338743dd883f231; parent_hash: 0xf144…aef4; extrinsics (2): [0x2d3e…aeba, 0xda82…ae18]]    
+2021-10-27 16:20:12 🔖 Pre-sealed block for proposal at 203. Hash now 0xc94ccfc94e5bbfbd320723b17897a0c29bff6adc52dc8358306222855c93f41e, previously 0x502b3dd6bce78edb5f8e41ad4a5fa98dad5db5e1972138be3338743dd883f231.    
+2021-10-27 16:20:12 ✨ Imported #203 (0xc94c…f41e)    
+2021-10-27 16:20:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:14 👴 Applying authority set change scheduled at block #201    
+2021-10-27 16:20:14 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:20:14 🥩 Round #201 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xc8bf0d8c9a2316bfbd03ee3988bc6e5a7faf8bd8e65e1eaf8022fc7798226ed2, block_number: 201, validator_set_id: 0 }, signatures: [Some(Signature(9c0a230e5ed2820f0978e3daf54df61a1e65884f45927a194bf0cc7bb052f4d4559edb9574b56d8a46ddec13ae1b2634dcf4af8c7c7cac5623c3537f9ca1905800)), Some(Signature(914ae338a3e4e88111c957a54408a195a6e97939c822dc47f64e6f85c5d507053c07b63c5bfa3e0b3c7382f33e4b7943f6a038f4ea72e30da58be164a0c1db6801)), Some(Signature(20a5f3f5b290374f102de372679450745a1db279236e0217411291812fd7bfd60fe28553ad23275a2c067feef57a7d42d4293b73abdb277badf73341c0c068f201))] }.    
+2021-10-27 16:20:15 💤 Idle (4 peers), best: #203 (0xc94c…f41e), finalized #201 (0x1bd3…11b2), ⬇ 3.7kiB/s ⬆ 3.7kiB/s    
+2021-10-27 16:20:18 ✨ Imported #204 (0x3991…ac60)    
+2021-10-27 16:20:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:20 💤 Idle (4 peers), best: #204 (0x3991…ac60), finalized #201 (0x1bd3…11b2), ⬇ 3.6kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:20:24 ✨ Imported #205 (0x1acd…d372)    
+2021-10-27 16:20:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:25 💤 Idle (4 peers), best: #205 (0x1acd…d372), finalized #202 (0xf144…aef4), ⬇ 6.5kiB/s ⬆ 2.2kiB/s    
+2021-10-27 16:20:30 ✨ Imported #206 (0x140e…6125)    
+2021-10-27 16:20:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:30 💤 Idle (4 peers), best: #206 (0x140e…6125), finalized #203 (0xc94c…f41e), ⬇ 3.4kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:20:35 💤 Idle (4 peers), best: #206 (0x140e…6125), finalized #204 (0x3991…ac60), ⬇ 2.1kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:20:36 🙌 Starting consensus session on top of parent 0x140e70a5fbb006a04ff0100fe405b60ccab9bc03e498b2010b4fe7a5bb7d6125    
+2021-10-27 16:20:36 🎁 Prepared block for proposing at 207 [hash: 0xbcbe1c63dbbd913830c8565006f4b01be03c4ea48107d9387743d3da8b29db5a; parent_hash: 0x140e…6125; extrinsics (2): [0xcec7…2ce3, 0x57ba…ea16]]    
+2021-10-27 16:20:36 🔖 Pre-sealed block for proposal at 207. Hash now 0xfdba89ed926c4e61d4bfd1991ffb4ea115ac9ee6d6bfcc50e7d3259bfd45902c, previously 0xbcbe1c63dbbd913830c8565006f4b01be03c4ea48107d9387743d3da8b29db5a.    
+2021-10-27 16:20:36 ✨ Imported #207 (0xfdba…902c)    
+2021-10-27 16:20:36 ♻️  Reorg on #207,0xfdba…902c to #207,0xfc6c…ddd2, common ancestor #206,0x140e…6125    
+2021-10-27 16:20:36 ✨ Imported #207 (0xfc6c…ddd2)    
+2021-10-27 16:20:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:40 💤 Idle (4 peers), best: #207 (0xfc6c…ddd2), finalized #205 (0x1acd…d372), ⬇ 4.0kiB/s ⬆ 4.7kiB/s    
+2021-10-27 16:20:42 🙌 Starting consensus session on top of parent 0xfc6ce6b53c3b409cff2d1af0fbf8a61f70f5ada499903d920d0657fdb61eddd2    
+2021-10-27 16:20:42 🎁 Prepared block for proposing at 208 [hash: 0xd737b54321cdb3c5a33e46dc5569c180a185f93723879ae02b02b01d7beab4e5; parent_hash: 0xfc6c…ddd2; extrinsics (2): [0xa575…83a7, 0x8dc0…7b76]]    
+2021-10-27 16:20:42 🔖 Pre-sealed block for proposal at 208. Hash now 0xe5238954db0da78424978e5a3b97fe58cdd2279946d31b56afa9f7c822496af3, previously 0xd737b54321cdb3c5a33e46dc5569c180a185f93723879ae02b02b01d7beab4e5.    
+2021-10-27 16:20:42 ✨ Imported #208 (0xe523…6af3)    
+2021-10-27 16:20:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:45 💤 Idle (4 peers), best: #208 (0xe523…6af3), finalized #205 (0x1acd…d372), ⬇ 3.1kiB/s ⬆ 4.2kiB/s    
+2021-10-27 16:20:48 🙌 Starting consensus session on top of parent 0xe5238954db0da78424978e5a3b97fe58cdd2279946d31b56afa9f7c822496af3    
+2021-10-27 16:20:48 🎁 Prepared block for proposing at 209 [hash: 0xc3feb250b1d5c43acb9a3f1943a612d776572c148ce6c10e530bff947867789c; parent_hash: 0xe523…6af3; extrinsics (2): [0xdb5d…2c17, 0xb085…3811]]    
+2021-10-27 16:20:48 🔖 Pre-sealed block for proposal at 209. Hash now 0x31adafaa38376d75b8f42b0ff28da8b735e0e28d506e1d0117ff1ced7bbabd42, previously 0xc3feb250b1d5c43acb9a3f1943a612d776572c148ce6c10e530bff947867789c.    
+2021-10-27 16:20:48 ✨ Imported #209 (0x31ad…bd42)    
+2021-10-27 16:20:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:50 💤 Idle (4 peers), best: #209 (0x31ad…bd42), finalized #206 (0x140e…6125), ⬇ 5.8kiB/s ⬆ 2.8kiB/s    
+2021-10-27 16:20:54 🙌 Starting consensus session on top of parent 0x31adafaa38376d75b8f42b0ff28da8b735e0e28d506e1d0117ff1ced7bbabd42    
+2021-10-27 16:20:54 🎁 Prepared block for proposing at 210 [hash: 0x063a7d8efc7144e446385710c006a357c92aebf7621877d55bd190b2fbdda3f0; parent_hash: 0x31ad…bd42; extrinsics (2): [0x1da1…d603, 0x7eae…bf91]]    
+2021-10-27 16:20:54 🔖 Pre-sealed block for proposal at 210. Hash now 0x5be2f464160d7acb82e48ef080dc645484d6eb6bc5dcdb881e78c42982b1efd8, previously 0x063a7d8efc7144e446385710c006a357c92aebf7621877d55bd190b2fbdda3f0.    
+2021-10-27 16:20:54 ✨ Imported #210 (0x5be2…efd8)    
+2021-10-27 16:20:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:20:55 💤 Idle (4 peers), best: #210 (0x5be2…efd8), finalized #207 (0xfc6c…ddd2), ⬇ 3.6kiB/s ⬆ 3.5kiB/s    
+2021-10-27 16:21:00 👶 New epoch 21 launching at block 0x0d52…41fc (block slot 272554410 >= start slot 272554410).    
+2021-10-27 16:21:00 👶 Next epoch starts at slot 272554420    
+2021-10-27 16:21:00 ✨ Imported #211 (0x0d52…41fc)    
+2021-10-27 16:21:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:00 💤 Idle (4 peers), best: #211 (0x0d52…41fc), finalized #208 (0xe523…6af3), ⬇ 3.1kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:21:02 🥩 Round #209 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0xbcf1f75f0f70793b51e99e903238849d51a524f95b02fe33a8842085252e21cb, block_number: 209, validator_set_id: 0 }, signatures: [Some(Signature(bc4d8125e92cdf185b134337273c346db17951efbf28d5ea6af9367eae238aad2b6cb6d4d3fbdcf074c46bc861620384847b3cc5bedf166eee3fd92b78f2ef0c01)), Some(Signature(d09e3022136a7a0140c7af92be185e33bc0a8b424fe5084f0f1b66ec252d21632f951b68ffe8f9872e073306e22e594e6298c1a05dfe713fa3d7f81f75539e2901)), Some(Signature(1e7afc51a984a43a7756025660a3df0f06c33c6fd1066281f109d5276778d474577cb4a7c8c362e2d71b3daadf3cfcf10ed2f5a800cff53f8011635dba06d68101))] }.    
+2021-10-27 16:21:05 💤 Idle (4 peers), best: #211 (0x0d52…41fc), finalized #209 (0x31ad…bd42), ⬇ 1.9kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:21:06 ✨ Imported #212 (0x3c24…b0e0)    
+2021-10-27 16:21:06 Advanced session window for approvals update=Advanced { prev_window_start: 15, prev_window_end: 20, new_window_start: 16, new_window_end: 21 }
+2021-10-27 16:21:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:10 💤 Idle (4 peers), best: #212 (0x3c24…b0e0), finalized #209 (0x31ad…bd42), ⬇ 2.0kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:21:12 🙌 Starting consensus session on top of parent 0x3c24201a122306a5910ecb33cb9a2ac40c77cd61ca708b087e7e77073731b0e0    
+2021-10-27 16:21:12 🎁 Prepared block for proposing at 213 [hash: 0x255153f712149c20bb26c57e6dcbc857874ad47c6eea4a3414d13552d1e3fd4b; parent_hash: 0x3c24…b0e0; extrinsics (2): [0xd1e0…ee04, 0xe803…3893]]    
+2021-10-27 16:21:12 🔖 Pre-sealed block for proposal at 213. Hash now 0x06da55b4ff66991f126e1cc748586d68c4a4ff0b9732bc0113c47bd1cf0c52f2, previously 0x255153f712149c20bb26c57e6dcbc857874ad47c6eea4a3414d13552d1e3fd4b.    
+2021-10-27 16:21:12 ✨ Imported #213 (0x06da…52f2)    
+2021-10-27 16:21:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:14 👴 Applying authority set change scheduled at block #211    
+2021-10-27 16:21:14 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:21:15 💤 Idle (4 peers), best: #213 (0x06da…52f2), finalized #211 (0x0d52…41fc), ⬇ 5.0kiB/s ⬆ 3.2kiB/s    
+2021-10-27 16:21:18 ✨ Imported #214 (0x3d4f…9b65)    
+2021-10-27 16:21:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:20 💤 Idle (4 peers), best: #214 (0x3d4f…9b65), finalized #211 (0x0d52…41fc), ⬇ 6.3kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:21:24 ✨ Imported #215 (0xd193…9d18)    
+2021-10-27 16:21:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:24 ✨ Imported #215 (0x5381…3224)    
+2021-10-27 16:21:25 💤 Idle (4 peers), best: #215 (0xd193…9d18), finalized #212 (0x3c24…b0e0), ⬇ 4.3kiB/s ⬆ 3.8kiB/s    
+2021-10-27 16:21:30 🙌 Starting consensus session on top of parent 0xd193462545feacac6b2d8b8b7f73b25731a74e9b36a71373370eca4391489d18    
+2021-10-27 16:21:30 🎁 Prepared block for proposing at 216 [hash: 0x93a6df35217dc16a7a2545d1e6a07945eccfd136227e902c50c9c5251c3070f2; parent_hash: 0xd193…9d18; extrinsics (2): [0x6275…b488, 0x8ed2…cf2b]]    
+2021-10-27 16:21:30 🔖 Pre-sealed block for proposal at 216. Hash now 0x5bfc24082209b2d5d9bc496c7616e6ad6f79a1d350cd49c288fcc7d4e3b8b46b, previously 0x93a6df35217dc16a7a2545d1e6a07945eccfd136227e902c50c9c5251c3070f2.    
+2021-10-27 16:21:30 ✨ Imported #216 (0x5bfc…b46b)    
+2021-10-27 16:21:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:30 ♻️  Reorg on #216,0x5bfc…b46b to #216,0xf6f2…71dc, common ancestor #215,0xd193…9d18    
+2021-10-27 16:21:30 ✨ Imported #216 (0xf6f2…71dc)    
+2021-10-27 16:21:30 💤 Idle (4 peers), best: #216 (0xf6f2…71dc), finalized #213 (0x06da…52f2), ⬇ 2.2kiB/s ⬆ 3.0kiB/s    
+2021-10-27 16:21:35 💤 Idle (4 peers), best: #216 (0xf6f2…71dc), finalized #214 (0x3d4f…9b65), ⬇ 1.5kiB/s ⬆ 1.6kiB/s    
+2021-10-27 16:21:36 ✨ Imported #217 (0x12ad…d16a)    
+2021-10-27 16:21:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:40 💤 Idle (4 peers), best: #217 (0x12ad…d16a), finalized #215 (0xd193…9d18), ⬇ 7.0kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:21:42 ✨ Imported #218 (0xd05f…ea55)    
+2021-10-27 16:21:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:45 💤 Idle (4 peers), best: #218 (0xd05f…ea55), finalized #215 (0xd193…9d18), ⬇ 3.6kiB/s ⬆ 3.1kiB/s    
+2021-10-27 16:21:48 🙌 Starting consensus session on top of parent 0xd05f23635ac24baf5d5ead40fd7b0ae3ac51f897fc0bd601dce2ba414f15ea55    
+2021-10-27 16:21:48 🎁 Prepared block for proposing at 219 [hash: 0xdabd1a39d6b397bdc53b1763ff06dae97b7f7962ec8afb71478522f70355622e; parent_hash: 0xd05f…ea55; extrinsics (2): [0x1aec…4a2e, 0xcab5…b9af]]    
+2021-10-27 16:21:48 🔖 Pre-sealed block for proposal at 219. Hash now 0x88a52d2e800b53aa53f0f7c44906187bb6f17de8bcd69cbf7730bd1e8e049f79, previously 0xdabd1a39d6b397bdc53b1763ff06dae97b7f7962ec8afb71478522f70355622e.    
+2021-10-27 16:21:48 ✨ Imported #219 (0x88a5…9f79)    
+2021-10-27 16:21:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:50 💤 Idle (4 peers), best: #219 (0x88a5…9f79), finalized #216 (0xf6f2…71dc), ⬇ 3.4kiB/s ⬆ 4.2kiB/s    
+2021-10-27 16:21:54 ✨ Imported #220 (0x770a…d073)    
+2021-10-27 16:21:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:21:55 🥩 Round #217 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x8be2879ddf0e72f2f2f9aeb9581418cab200c20d33e56ad96e002c1c49f01cb6, block_number: 217, validator_set_id: 0 }, signatures: [Some(Signature(a4123074ce4973c17f56a9ee50a98ee4aaa1ee687c477f7cf756e49f171ae41c117b41aced3ddaf784d1e23c983ff32c12e62a9edb67abb45dc1ecdeb87d8ab600)), Some(Signature(7fa53260eac0e21f70182b646cb4c43220827fa99fc4d81d99a05d51b362d9a647edbc0fdfe2b1b53013d5a4f5cd4cb935e2049b79df7444627599374ee2cb4b01)), Some(Signature(85d6ebf78fd524ee07079e50ea0291ece24d1d4f323837eb72f21655bd533d7947eff2c0426647b71a2d48516b6337e3f68018b1b1157601fb935607ce63713200))] }.    
+2021-10-27 16:21:55 💤 Idle (4 peers), best: #220 (0x770a…d073), finalized #217 (0x12ad…d16a), ⬇ 1.8kiB/s ⬆ 2.0kiB/s    
+2021-10-27 16:22:00 👶 New epoch 22 launching at block 0xce29…e77b (block slot 272554420 >= start slot 272554420).    
+2021-10-27 16:22:00 👶 Next epoch starts at slot 272554430    
+2021-10-27 16:22:00 ✨ Imported #221 (0xce29…e77b)    
+2021-10-27 16:22:00 [index: 0] Reporting im-online at block: 221 (session: 22): Call::heartbeat(Heartbeat { block_number: 221, network_state: OpaqueNetworkState { peer_id: OpaquePeerId([152, 0, 36, 8, 1, 18, 32, 153, 159, 219, 252, 203, 48, 97, 246, 135, 231, 133, 106, 8, 211, 164, 212, 62, 118, 243, 164, 226, 18, 85, 10, 239, 175, 98, 224, 238, 133, 81, 207]), external_addresses: [OpaqueMultiaddr([112, 47, 105, 112, 52, 47, 49, 55, 50, 46, 49, 54, 46, 49, 48, 46, 49, 50, 56, 47, 116, 99, 112, 47, 51, 48, 52, 52, 52])] }, session_index: 22, authority_index: 0, validators_len: 3 }, Signature(30650e1fd7f20bb1e90b5e5b398c64330e0e4e3f1762e096a1127f0b132117523376c567c956111e79d2f851a099e1aeafb250bf3186a61ffd3e8fbf0ca6cd85))    
+2021-10-27 16:22:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:00 💤 Idle (4 peers), best: #221 (0xce29…e77b), finalized #218 (0xd05f…ea55), ⬇ 4.3kiB/s ⬆ 2.9kiB/s    
+2021-10-27 16:22:05 💤 Idle (4 peers), best: #221 (0xce29…e77b), finalized #219 (0x88a5…9f79), ⬇ 3.3kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:22:06 🙌 Starting consensus session on top of parent 0xce2972c5fd6ded4c0ed63cee36501b7d8309ce86f7c37d9acc4b790da3f2e77b    
+2021-10-27 16:22:06 🎁 Prepared block for proposing at 222 [hash: 0x66f4bb44c634f70bf7377a88dbd376604d00579007e6be080477180e99e947e0; parent_hash: 0xce29…e77b; extrinsics (2): [0x92e6…c343, 0x3bc8…1aa2]]    
+2021-10-27 16:22:06 🔖 Pre-sealed block for proposal at 222. Hash now 0xacacae561cdee25de63c5353b0459e0c8e5ee37d991cee92e9dbf54cc45fdf0d, previously 0x66f4bb44c634f70bf7377a88dbd376604d00579007e6be080477180e99e947e0.    
+2021-10-27 16:22:06 ✨ Imported #222 (0xacac…df0d)    
+2021-10-27 16:22:06 Advanced session window for approvals update=Advanced { prev_window_start: 16, prev_window_end: 21, new_window_start: 17, new_window_end: 22 }
+2021-10-27 16:22:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:06 ✨ Imported #222 (0xbad4…2d09)    
+2021-10-27 16:22:10 💤 Idle (4 peers), best: #222 (0xacac…df0d), finalized #219 (0x88a5…9f79), ⬇ 3.9kiB/s ⬆ 4.3kiB/s    
+2021-10-27 16:22:12 ✨ Imported #223 (0xe8eb…15b8)    
+2021-10-27 16:22:12 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:15 👴 Applying authority set change scheduled at block #221    
+2021-10-27 16:22:15 👴 Applying GRANDPA set change to new set [(Public(88dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee (146SvjUZ...)), 1), (Public(d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae69 (15jftzMa...)), 1), (Public(439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f (12Xct2dQ...)), 1)]    
+2021-10-27 16:22:15 💤 Idle (4 peers), best: #223 (0xe8eb…15b8), finalized #221 (0xce29…e77b), ⬇ 4.0kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:22:18 🙌 Starting consensus session on top of parent 0xe8ebb9cf3aac2063d9a7ece0c366eddf0d05e4da36ddd93f53bdebfb65b515b8    
+2021-10-27 16:22:18 🎁 Prepared block for proposing at 224 [hash: 0x40e6006d9d4fd0d10fa2151324992e2faad73d1f360f7fa1f0792f08b9bfc426; parent_hash: 0xe8eb…15b8; extrinsics (2): [0x5da6…1ae4, 0x37d8…ce64]]    
+2021-10-27 16:22:18 🔖 Pre-sealed block for proposal at 224. Hash now 0x7691b7e28d94405f7b2c2a2e7746ed6e847881cdea61b8b828a580ccd58c74f7, previously 0x40e6006d9d4fd0d10fa2151324992e2faad73d1f360f7fa1f0792f08b9bfc426.    
+2021-10-27 16:22:18 ✨ Imported #224 (0x7691…74f7)    
+2021-10-27 16:22:18 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:20 💤 Idle (4 peers), best: #224 (0x7691…74f7), finalized #221 (0xce29…e77b), ⬇ 1.3kiB/s ⬆ 2.4kiB/s    
+2021-10-27 16:22:24 ✨ Imported #225 (0x43f1…880a)    
+2021-10-27 16:22:24 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:25 💤 Idle (4 peers), best: #225 (0x43f1…880a), finalized #222 (0xacac…df0d), ⬇ 6.6kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:22:30 🙌 Starting consensus session on top of parent 0x43f18696d9d8a86a036651a3b3811bd9edc4e76f65e0ed94b8458ad6a80d880a    
+2021-10-27 16:22:30 🎁 Prepared block for proposing at 226 [hash: 0x89665d7f13a13a770e0d64595f3421d9dbd3c242dc3b5931aa6da6e07c3b0512; parent_hash: 0x43f1…880a; extrinsics (2): [0x6b3a…7a00, 0xdc1c…6be1]]    
+2021-10-27 16:22:30 🔖 Pre-sealed block for proposal at 226. Hash now 0x5e57a51088229ce404369ef9d560701550bb83c340527ba3c2c3b93f69b98da0, previously 0x89665d7f13a13a770e0d64595f3421d9dbd3c242dc3b5931aa6da6e07c3b0512.    
+2021-10-27 16:22:30 ✨ Imported #226 (0x5e57…8da0)    
+2021-10-27 16:22:30 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:30 💤 Idle (4 peers), best: #226 (0x5e57…8da0), finalized #223 (0xe8eb…15b8), ⬇ 2.9kiB/s ⬆ 3.0kiB/s    
+2021-10-27 16:22:35 💤 Idle (4 peers), best: #226 (0x5e57…8da0), finalized #224 (0x7691…74f7), ⬇ 2.1kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:22:36 ✨ Imported #227 (0x5205…3417)    
+2021-10-27 16:22:36 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:39 🥩 Round #225 concluded, committed: SignedCommitment { commitment: Commitment { payload: 0x1f70edae6e20c129f5e17e24a020e5aebd896dab8a0e13615f8f50e5f0536005, block_number: 225, validator_set_id: 0 }, signatures: [Some(Signature(0888312262abb2753923de51bbc7330eeac7d47a2b128a8d5ef4b5d690764f8e021486f30c2d59b9e8fe50d5a97d58255c1c02cdca9d54efd9cabad3659d522101)), Some(Signature(a35794e965b38eb21bd5877e7cba1ad4efd8a49ff30dc5e8c3a0f3fa5ca83894085601ea1a09a825124cfecd74099fb7221d6e035534a8e954223caca55417ba01)), Some(Signature(ed9a2d1b61fdeda59f6336b920011fa40f0a77a4fa470cfa22100648fe62e1e97dc361e118f07b3f55ae0000375ed5dd0c528ac91b250e3c4be50f2dc033dc9c01))] }.    
+2021-10-27 16:22:40 💤 Idle (4 peers), best: #227 (0x5205…3417), finalized #225 (0x43f1…880a), ⬇ 3.7kiB/s ⬆ 2.1kiB/s    
+2021-10-27 16:22:42 ✨ Imported #228 (0xb9d8…d6cb)    
+2021-10-27 16:22:42 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:42 ♻️  Reorg on #228,0xb9d8…d6cb to #228,0xa3d8…2a4e, common ancestor #227,0x5205…3417    
+2021-10-27 16:22:42 ✨ Imported #228 (0xa3d8…2a4e)    
+2021-10-27 16:22:45 💤 Idle (4 peers), best: #228 (0xa3d8…2a4e), finalized #225 (0x43f1…880a), ⬇ 4.2kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:22:48 ✨ Imported #229 (0xde56…3a96)    
+2021-10-27 16:22:48 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:50 💤 Idle (4 peers), best: #229 (0xde56…3a96), finalized #226 (0x5e57…8da0), ⬇ 4.9kiB/s ⬆ 1.9kiB/s    
+2021-10-27 16:22:54 ✨ Imported #230 (0xc634…f98f)    
+2021-10-27 16:22:54 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:22:55 💤 Idle (4 peers), best: #230 (0xc634…f98f), finalized #227 (0x5205…3417), ⬇ 5.0kiB/s ⬆ 2.6kiB/s    
+2021-10-27 16:23:00 🙌 Starting consensus session on top of parent 0xc634eceff9b252bab734dc5292ef35fccb64366efcfd4163da870d2a0e0ff98f    
+2021-10-27 16:23:00 🎁 Prepared block for proposing at 231 [hash: 0xb4937ec97b8b1325811fced432aaa611bd3bcc780a76338a2449ddbe47b49390; parent_hash: 0xc634…f98f; extrinsics (2): [0x05fb…432e, 0x7a39…a7a2]]    
+2021-10-27 16:23:00 🔖 Pre-sealed block for proposal at 231. Hash now 0xeccd22caf06b334b2ccfa997bc8fe85c3d7e85a920d4e1fddb071f80a37b3acf, previously 0xb4937ec97b8b1325811fced432aaa611bd3bcc780a76338a2449ddbe47b49390.    
+2021-10-27 16:23:00 👶 New epoch 23 launching at block 0xeccd…3acf (block slot 272554430 >= start slot 272554430).    
+2021-10-27 16:23:00 👶 Next epoch starts at slot 272554440    
+2021-10-27 16:23:00 ✨ Imported #231 (0xeccd…3acf)    
+2021-10-27 16:23:00 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:23:00 💤 Idle (4 peers), best: #231 (0xeccd…3acf), finalized #228 (0xa3d8…2a4e), ⬇ 3.3kiB/s ⬆ 5.6kiB/s    
+2021-10-27 16:23:05 💤 Idle (4 peers), best: #231 (0xeccd…3acf), finalized #229 (0xde56…3a96), ⬇ 1.4kiB/s ⬆ 1.8kiB/s    
+2021-10-27 16:23:06 🙌 Starting consensus session on top of parent 0xeccd22caf06b334b2ccfa997bc8fe85c3d7e85a920d4e1fddb071f80a37b3acf    
+2021-10-27 16:23:06 🎁 Prepared block for proposing at 232 [hash: 0xdb0b64d2671070c54c53fa42cceab509849c84f2ca9b118b3d8d58b06988cbe9; parent_hash: 0xeccd…3acf; extrinsics (2): [0xf4c7…ce4b, 0xe946…0a4a]]    
+2021-10-27 16:23:06 🔖 Pre-sealed block for proposal at 232. Hash now 0xf9e40e767e549800fd892347589f04060fa2b7f1c6e571b8656357998284a6e4, previously 0xdb0b64d2671070c54c53fa42cceab509849c84f2ca9b118b3d8d58b06988cbe9.    
+2021-10-27 16:23:06 ✨ Imported #232 (0xf9e4…a6e4)    
+2021-10-27 16:23:06 Advanced session window for approvals update=Advanced { prev_window_start: 17, prev_window_end: 22, new_window_start: 18, new_window_end: 23 }
+2021-10-27 16:23:06 Low connectivity - authority lookup failed for too many validators. connected=2 target=3
+2021-10-27 16:23:06 ♻️  Reorg on #232,0xf9e4…a6e4 to #232,0x4319…efa6, common ancestor #231,0xeccd…3acf    
+2021-10-27 16:23:06 ✨ Imported #232 (0x4319…efa6)    
+2021-10-27 16:23:10 💤 Idle (4 peers), best: #232 (0x4319…efa6), finalized #229 (0xde56…3a96), ⬇ 2.3kiB/s ⬆ 3.3kiB/s    

@@ -19,11 +19,13 @@ use sp_std::prelude::*;
 #[cfg(feature = "std")]
 use sp_version::NativeVersion;
 use sp_version::RuntimeVersion;
+use darkwebb_primitives::{types::ElementTrait, Amount, ChainId};
+use orml_currencies::BasicCurrencyAdapter;
 
 // A few exports that help ease life for downstream crates.
 pub use frame_support::{
 	construct_runtime, match_type, parameter_types,
-	traits::{Everything, IsInVec, Randomness},
+	traits::{Everything, IsInVec, Randomness, Nothing},
 	weights::{
 		constants::{BlockExecutionWeight, ExtrinsicBaseWeight, RocksDbWeight, WEIGHT_PER_SECOND},
 		DispatchClass, IdentityFee, Weight,
@@ -50,9 +52,6 @@ use xcm_builder::{
 	UsingComponents,
 };
 use xcm_executor::{Config, XcmExecutor};
-
-/// Import the template pallet.
-pub use template;
 
 /// Alias to 512-bit hash when used in the context of a transaction signature on the chain.
 pub type Signature = MultiSignature;
@@ -439,9 +438,39 @@ impl pallet_aura::Config for Runtime {
 	type DisabledValidators = ();
 }
 
-/// Configure the pallet template in pallets/template.
-impl template::Config for Runtime {
+impl pallet_asset_registry::Config for Runtime {
+	type AssetId = darkwebb_primitives::AssetId;
+	type AssetNativeLocation = ();
+	type Balance = Balance;
 	type Event = Event;
+	type NativeAssetId = NativeCurrencyId;
+	type RegistryOrigin = frame_system::EnsureRoot<AccountId>;
+	type StringLimit = RegistryStringLimit;
+	type WeightInfo = ();
+}
+
+impl orml_tokens::Config for Runtime {
+	type Amount = Amount;
+	type Balance = Balance;
+	type CurrencyId = darkwebb_primitives::AssetId;
+	type DustRemovalWhitelist = Nothing;
+	type Event = Event;
+	type ExistentialDeposits = AssetRegistry;
+	type MaxLocks = ();
+	type OnDust = ();
+	type WeightInfo = ();
+}
+parameter_types! {
+	pub const NativeCurrencyId: u32 = 0;
+	pub const RegistryStringLimit: u32 = 10;
+}
+
+impl orml_currencies::Config for Runtime {
+	type Event = Event;
+	type GetNativeCurrencyId = NativeCurrencyId;
+	type MultiCurrency = Tokens;
+	type NativeCurrency = BasicCurrencyAdapter<Runtime, Balances, Amount, BlockNumber>;
+	type WeightInfo = ();
 }
 
 // Create the runtime by composing the FRAME pallets that were previously configured.
@@ -472,8 +501,9 @@ construct_runtime!(
 		CumulusXcm: cumulus_pallet_xcm::{Pallet, Call, Event<T>, Origin} = 52,
 		DmpQueue: cumulus_pallet_dmp_queue::{Pallet, Call, Storage, Event<T>} = 53,
 
-		//Template
-		TemplatePallet: template::{Pallet, Call, Storage, Event<T>},
+		AssetRegistry: pallet_asset_registry::{Pallet, Call, Storage, Event<T>},
+		Currencies: orml_currencies::{Pallet, Call, Event<T>},
+		Tokens: orml_tokens::{Pallet, Storage, Call, Event<T>},
 	}
 );
 
